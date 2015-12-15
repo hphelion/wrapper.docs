@@ -45,7 +45,7 @@
       </strow>
       <strow>
         <stentry>
-          <xref href="hcf.docs/hcf/hcf-index.dita">HPE Helion Cloud Foundry</xref>
+          <xref href="hcf/hcf-index.dita">HPE Helion Cloud Foundry</xref>
         </stentry>
         <stentry>
           <p>A certified distribution of Cloud Foundry (cf-release v217). Instead of deploying
