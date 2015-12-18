@@ -47,15 +47,14 @@
         <stentry>
           <xref href="hcf/hcf-index.dita">HPE Helion Cloud Foundry</xref>
         </stentry>
-        <stentry>
-          <p>A certified distribution of Cloud Foundry (cf-release v217). Instead of deploying
-            virtual machines, Helion Cloud Foundry uses containers for bundling all major functions,
-            for representing roles, and for providing simple update and upgrade workflows.</p>
+        <stentry>A certified distribution of Cloud Foundry. Instead of deploying virtual machines, 
+	  Helion Cloud Foundry uses containers for bundling all major functions, for representing 
+          roles, and for providing simple update and upgrade workflows.
         </stentry>
       </strow>
       <strow>
         <stentry>
-          <xref href="CarrierGrade2.0/carrier-grade-index.dita#topic2685"/>
+          <xref href="CarrierGrade2.0/carrier-grade-index.dita#topic2685">HPE Helion <tm tmtype="reg">OpenStack</tm> Carrier Grade</xref>
         </stentry>
         <stentry>A carrier-grade OpenStack solution plus compute and network functions
           virtualization (NFV) offering that enables CSPs to deploy applications on open source
