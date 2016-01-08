@@ -1,4 +1,5 @@
 RewriteEngine on
+RewriteRule ^permalink/helion-openstack/2.0/install_entryscale_esx.html?$ http://docs.hpcloud.com/#helion/installation/install_entryscale_esx.html [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack-mpc/most-current/landing_page?$ http://15.126.244.7/mpc/#helion/MPC/index_MPC.html  [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/2.0/landing-page?$ http://docs.hpcloud.com/#helion/index.html  [NE,R=301,L]
 RewriteRule ^publiccloud/whats_new_with_HP_Cloud_Console/?$	/#publiccloud/hz.whatsnewjan.2014.html [NE,R=301,L]
