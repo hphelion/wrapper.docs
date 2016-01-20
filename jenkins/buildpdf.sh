@@ -1,10 +1,11 @@
 
 DITAMAP="$1"
-
+echo 1
 export DOC_HOME="`pwd`"
 export ANT_HOME="/usr/bin/ant"
 export JAVA_HOME="/usr/lib/jvm/java-1.7.0-openjdk-amd64" 
  
+ echo 2
 
 #rm -r tools
 #git clone git@github.com:hphelion/tools.git 
@@ -12,7 +13,7 @@ cd tools/DITA-OT
 #git checkout pdf_test
  
 export DITA_HOME="`pwd`"
-
+echo 3
 
 
 export XDG_SESSION_ID="89"
@@ -42,17 +43,21 @@ export XDG_RUNTIME_DIR="/run/user/1000"
 export SUDO_GID="1000"
 export DITA_HOME="/var/lib/jenkins/workspace/$JOB_NAME/tools/DITA-OT"
 
+echo 4
 
 
 sudo chmod 777 ./startcmd.sh
 ./startcmd.sh
 
+echo 5
 set ANT_OPTS=-Xmx3000m %ANT_OPTS%
 set ANT_OPTS=%ANT_OPTS% 
 -Djavax.xml.transform.TransformerFactory=net.sf.saxon.TransformerFactoryImpl
 
-
+echo 6
 
 ant -f build.xml  -Dargs.input=$DOC_HOME/$DITAMAP -Dtranstype=pdf
 
 cd -
+
+echo 7
