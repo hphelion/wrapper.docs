@@ -7,8 +7,8 @@ echo >>Begin staging
 echo ">>Publishing version $VERSION_TO_PUBLISH"
 
 echo ">>Ensure target directory exists ..."
-ssh root@${SERVER1} "sudo mkdir -p /var/www/html/eucaProd"
-ssh root${SERVER1} "sudo mkdir -p /var/www/html/eucaProd/$VERSION_TO_PUBLISH"
+ssh -T root@${SERVER1} "sudo mkdir -p /var/www/html/eucaProd"
+ssh -T root${SERVER1} "sudo mkdir -p /var/www/html/eucaProd/$VERSION_TO_PUBLISH"
 
 echo ">>Ensure target directory has correct ownership..."
 ssh root@${SERVER1} "sudo chown -R root:www-data /var/www/html/eucaProd/"
