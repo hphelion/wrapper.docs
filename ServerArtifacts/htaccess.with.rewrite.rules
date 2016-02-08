@@ -8,7 +8,7 @@ RewriteEngine on
 #
 # 
 
-
+RedirectMatch 301 /eucalyptus/4.2.0(.*) /eucalyptus/4.2.1$1
 RewriteRule ^devplatform/1.2/1.2devplatform.ALS-developer-trial-quick-start.*.html /devplatform/1.3/devplatform.ALS-developer-trial-quick-start.html [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/2.0/install_entryscale_esx.*$ http://docs.hpcloud.com/#helion/installation/install_entryscale_esx.html [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/2.1/3rd-party-license-agreements.*$  http://docs.hpcloud.com/#helion/eula_21.html [NE,R=301,L]
