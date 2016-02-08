@@ -142,7 +142,7 @@
   <topichead navtitle="Previous Versions">
     <mapref href="devplatform/docs.hpcloud.com.HDP13.ditamap" format="ditamap"
       navtitle="HPE Helion Development Platform 1.3" locktitle="yes"/>
-    <mapref href="docs.hpcloud.com.HDP1.2.ditamap" format="ditamap"
+    <mapref href="devplatform/docs.hpcloud.com.HDP1.2.ditamap" format="ditamap"
       navtitle="HPE Helion Development Platform 1.2" locktitle="yes"/>
     <mapref href="docs.hpcloud.com.HDP.1.1.ditamap" format="ditamap"
       navtitle="HPE Helion Development Platform 1.1" locktitle="yes"/>
