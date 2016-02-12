@@ -71,14 +71,6 @@
       </strow>
       <strow>
         <stentry>
-          <xref href="publiccloud/publiccloud-overview.dita">HPE Helion Public Cloud</xref>
-        </stentry>
-        <stentry>Provides a transparent, enterprise-grade public cloud based on OpenStack technology
-          with on-demand, pay-as-you-go cloud services for computing and storage infrastructure as
-          well as platform services. </stentry>
-      </strow>
-      <strow>
-        <stentry>
           <xref href="automation/csa.index.dita">HPE Cloud Service Automation</xref>
         </stentry>
         <stentry>Provides open, heterogeneous, extensible enterprise-grade cloud service lifecycle
