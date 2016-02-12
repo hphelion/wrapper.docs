@@ -7,7 +7,7 @@ Options +FollowSymLinks
 RewriteEngine on
 #
 # 
-RewriteRule ^helion/devplatform/2.0/als/client/download(.*)$ http://docs.hpcloud.com/index.html/#devplatform/2.0/helion/CLI/ALS_Client_Downloads.html$1 [r=301,nc]
+RewriteRule ^helion/devplatform/2.0/als/client/download.*$ http://docs.hpcloud.com/#devplatform/2.0/helion/CLI/ALS_Client_Downloads.html [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/3.0/identity/identity_ldap.*$ http://docs-staging.hpcloud.com/hos.docs-hos-30/#helion/identity/identity_ldap.html [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/3.0/monasca.*$ http://docs-staging.hpcloud.com/hos.docs-hos-30/#helion/operations/monitoring_service.html [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/3.0/bare_installation_esx.*$ http://docs-staging.hpcloud.com/hos.docs-hos-30/#helion/installation/install_entryscale_esx.html [NE,R=301,L]
