@@ -34,7 +34,7 @@ RewriteRule ^devplatform/1.2/1.2devplatform.ALS-developer-trial-quick-start.*.ht
 RewriteRule ^permalink/helion-openstack/2.0/install_entryscale_esx.*$ http://docs.hpcloud.com/#helion/installation/install_entryscale_esx.html [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/2.1/3rd-party-license-agreements.*$  http://docs.hpcloud.com/#helion/eula_21.html [NE,R=301,L]
 RewriteRule ^helion/devplatform/2.0/ALS/client/download.*$ http://docs.hpcloud.com/#devplatform/2.0/helion/CLI/ALS_Client_Downloads.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack-mpc/home(.*)$ http://173.205.188.47/other/mpc/$1 [r=301,nc]
+RewriteRule ^permalink/helion-openstack-mpc/home(.*)$ http://docs.hpcloud.com/other/mpc/$1 [r=301,nc]
 RewriteRule ^permalink/helion-openstack/2.0/landing-page.*$ http://docs.hpcloud.com/#helion/index.html  [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/2.1/landing-page.*$ http://docs.hpcloud.com/#helion/index.html  [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/brokenfortest.*$ http://dixocs.hpcloud.com/#helion/identity/identity_ldap.html [NE,R=301,L]
