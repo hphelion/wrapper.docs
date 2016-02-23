@@ -37,7 +37,7 @@
       </strow>-->
       <strow>
         <stentry>
-          <xref href="devplatform/1.3/devplatform.index.dita">HPE Helion Development Platform</xref>
+          <xref href="devplatform/2.0/devplatform.index.dita">HPE Helion Development Platform</xref>
         </stentry>
         <stentry>Based on <tm tmtype="tm">Cloud Foundry</tm>, this add-on for HPE Helion OpenStack
           empowers developers and IT professionals by providing an open development platform
