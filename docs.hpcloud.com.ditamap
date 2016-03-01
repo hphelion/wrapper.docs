@@ -22,7 +22,7 @@
   <mapref href="devplatform/docs.hpcloud.com.HDP.ditamap" format="ditamap"/>
   <mapref href="docs.hpcloud.com.HCF.0.10.TP.ditamap" format="ditamap"/>
   <mapref href="docs.hpcloud.com.CGH.20.ditamap" format="ditamap"/>
-  <mapref href="../carrier.grade.docs/docs.hpcloud.com.CGH.21.ditamap"/>
+  <mapref href="docs.hpcloud.com.CGH.21.ditamap" format="ditamap"/>
 
   <!-- Community -->
 
