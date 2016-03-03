@@ -199,10 +199,10 @@ type="external">go</xref></entry>
 <entry></entry>
 </row>
 <row>
-<entry>Configuring HP CloudSystem to Use an HP Operations Orchestration
+<entry>Using an HP Operations Orchestration
 Remote Action Server (RAS)</entry>
 <entry nameend="4.01" namest="4.00"><xref format="html"
-href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04419948"
+href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04884722"
 type="external">go</xref></entry>
 <entry></entry>
 </row>
@@ -332,7 +332,7 @@ type="external">go</xref></entry>
 <entry>Open Source and Third-Party Software License Agreements</entry>
 <entry>N/A</entry>
 <entry><xref format="html"
-href="http://docs-staging.hpcloud.com/wrapper.docs-cloud-system-test/#cloudsystem/thirdparty.licensing.html"
+href="http://docs.hpcloud.com/#cloudsystem/thirdparty.licensing.html"
 type="external">go</xref></entry>
 <entry></entry>
 </row>
@@ -340,7 +340,7 @@ type="external">go</xref></entry>
 <entry>Software License Terms</entry>
 <entry>N/A</entry>
 <entry><xref format="html"
-href="http://docs-staging.hpcloud.com/wrapper.docs-cloud-system-test/#cloudsystem/licensing.html"
+href="http://docs.hpcloud.com/#cloudsystem/licensing.html"
 type="external">go</xref></entry>
 <entry></entry>
 </row>
