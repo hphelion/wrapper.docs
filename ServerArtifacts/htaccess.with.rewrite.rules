@@ -6,6 +6,7 @@ ErrorDocument 404 /404.html
 Options +FollowSymLinks
 RewriteEngine on
 #
+RewriteRule ^permalink/helion-openstack/third-party-licenses.*$ http://docs.hpcloud.com/pdf/static/licenses/helion-openstack  [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/3.0/install_entryscale_esx.*$ http://docs.hpcloud.com/#helion/installation/install_entryscale_esx.html [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/3.0/landing-page.*$ http://docs.hpcloud.com/#helion/index.html  [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/3.0/identity/identity_ldap.*$ http://docs.hpcloud.com/#helion/identity/identity_ldap.html [NE,R=301,L]
