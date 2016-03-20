@@ -6,6 +6,7 @@ ErrorDocument 404 /404.html
 Options +FollowSymLinks
 RewriteEngine on
 #
+RewriteRule ^permalink/helion-openstack/3.0/overview.*$ http://docs.hpcloud.com/#helion/overview.html  [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/third-party-licenses.*$ http://docs.hpcloud.com/pdf/static/licenses/helion-openstack  [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/3.0/install_entryscale_esx.*$ http://docs.hpcloud.com/#helion/installation/install_entryscale_esx.html [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/3.0/landing-page.*$ http://docs.hpcloud.com/#helion/index.html  [NE,R=301,L]
@@ -50,7 +51,6 @@ RewriteRule ^permalink/helion-openstack/3.0/installation_troubleshooting.*$ http
 RewriteRule ^permalink/helion-openstack/3.0/helion/input_model.*$ http://docs-staging.hpcloud.com/hos.docs-hos-30/#helion/input_model.html [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/3.0/supportedconfigs.*$ http://docs-staging.hpcloud.com/hos.docs-hos-30/#helion/example_configurations.html [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/3.0/installation/configure_ceph.*$ http://docs-staging.hpcloud.com/hos.docs-hos-30/#helion/installation/configure_ceph.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/opsconsole_overview.*$ http://docs-staging.hpcloud.com/hos.docs-hos-30/#helion/operations/monitoring_service.html [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/3.0/hardware.*$ http://docs-staging.hpcloud.com/hos.docs-hos-30/#helion/hardware.html [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/3.0/eula.*$ http://docs-staging.hpcloud.com/hos.docs-hos-30/#helion/3rd-party-license-agreements_21.html [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/3.0/gui_installer.*$ http://docs-staging.hpcloud.com/hos.docs-hos-30/#helion/gui_installer.html [NE,R=301,L]
