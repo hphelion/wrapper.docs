@@ -41,6 +41,13 @@
     locktitle="yes">
     <topicref href="cloudsystem/licensing.dita" navtitle="Open-Source and Third-Party Licensing"
       locktitle="yes" toc="no"/>
+
+
+
+<topicref href="cloudsystem/thirdparty.licensing.dita"  navtitle="Open-Source and Third-Party Licensing" locktitle="yes" toc="no"/> 
+
+
+
     <topicref href="cloudsystem/licensing.dita" toc="no"/>
   </topicref>
 
