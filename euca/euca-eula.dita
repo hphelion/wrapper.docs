@@ -4,24 +4,24 @@
     <title>HPE Helion <tm tmtype="reg">Eucalyptus</tm>: Master Services Agreement</title>
     <prolog>
         <metadata>
- 
-                <othermeta name="layout" content="default"/>
-                <othermeta name="product-version" content="eucalyptus"/>
- 
-                <othermeta name="role1" content="All"/>
- 
-                <othermeta name="role" content="Jayme P"/>
-       
-   
-
+            
+            <othermeta name="layout" content="default"/>
+            <othermeta name="product-version" content="eucalyptus"/>
+            
+            <othermeta name="role1" content="All"/>
+            
+            <othermeta name="role" content="Jayme P"/>
+            
+            
+            
             <!--permalink: /eucalyptus/masterservice/ --> 
-<!--PUBLISHED-->
+            <!--PUBLISHED-->
         </metadata>
     </prolog>
     <body>
         <p>The Master Services Agreement is available as a PDF download.</p>
-<p><xref
-    href="http://docs.hpcloud.com/pdf/static/HP_Euca_MSA_22_Oct_2015.pdf"
-                format="pdf" scope="external">Download the PDF document</xref>. </p>
+        <p><xref
+            href="http://gaf2871b9d2d13cf45c1306b35bf01764.cdn.hpcloudsvc.com/HP%20Eucalyptus%20Master%20Services%20Agreement%20(MSA)%20for%20Products%20and%20Services_7%20April_2016.pdf"
+            format="pdf" scope="external">Download the PDF document</xref>. </p>
     </body>
 </topic>
