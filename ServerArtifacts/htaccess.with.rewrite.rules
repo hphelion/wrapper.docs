@@ -56,7 +56,6 @@ RewriteRule ^permalink/helion-openstack/3.0/supportedconfigs.*$ http://docs.hpcl
 RewriteRule ^permalink/helion-openstack/3.0/installation/configure_ceph.*$ http://docs.hpcloud.com/other/30PreRelease/#helion/installation/configure_ceph.html [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/3.0/hardware.*$ http://docs.hpcloud.com/other/30PreRelease/#helion/hardware.html [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/3.0/eula.*$ http://docs.hpcloud.com/other/30PreRelease/#helion/eula_30.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/gui_installer.*$ http://docs-staging.hpcloud.com/hos.docs-hos-30/#helion/gui_installer.html [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/3.0/gui_installer.*$ http://docs.hpcloud.com/other/30PreRelease/#helion/installation/gui_installer.html [NE,R=301,L]
 # #### end gui installer links
 RedirectMatch 301 /eucalyptus/4.2.0(.*) /eucalyptus/4.2.1$1
