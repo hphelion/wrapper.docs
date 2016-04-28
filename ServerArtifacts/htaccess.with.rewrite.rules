@@ -35,7 +35,7 @@ RewriteRule ^permalink/helion-openstack/3.0/opsconsole_compute_instances.*$ http
 RewriteRule ^permalink/helion-openstack/3.0/opsconsole_networking_summary.*$ http://docs.hpcloud.com/#helion/operations/opsconsole/networking_summary.html [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/3.0/opsconsole_storage_summary.*$ http://docs.hpcloud.com/#helion/operations/opsconsole/storage_summary.html [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/3.0/opsconsole_hdp_summary.*$ http://docs.hpcloud.com/#helion/operations/opsconsole/hdp_summary.html [NE,R=301,L]
-# 
+# #### gui installer links
 RewriteRule ^permalink/helion-openstack/3.0/opsconsole_my_dashboard_overview.*$ http://docs-staging.hpcloud.com/HOS3.0pre-release/#helion/operations/opsconsole/my_dashboard_overview.html  [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/3.0/opsconsole_block_storage_alarm.*$ http://docs-staging.hpcloud.com/HOS3.0pre-release/#helion/operations/opsconsole/block_storage_alarm.html  [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/3.0/opsconsole_perf_storage.*$ http://docs-staging.hpcloud.com/HOS3.0pre-release/#helion/operations/opsconsole/perf_storage.html [NE,R=301,L]
@@ -46,18 +46,18 @@ RewriteRule ^permalink/helion-openstack/3.0/opsconsole_code_enghost.*$ http://do
 RewriteRule ^permalink/helion-openstack/3.0/opsconsole_overview.*$ http://docs-staging.hpcloud.com/HOS3.0pre-release/#helion/operations/opsconsole_overview.html [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/3.0/HOS_Landing.*$ http://docs-staging.hpcloud.com/HOS3.0pre-release/#helion/overview.html [NE,R=301,L]
 RewriteRule ^helion/devplatform/2.0/als/client/download.*$ http://docs.hpcloud.com/#devplatform/2.0/helion/CLI/ALS_Client_Downloads.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/identity/identity_ldap.*$ http://docs-staging.hpcloud.com/hos.docs-hos-30/#helion/identity/identity_ldap.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/monasca.*$ http://docs-staging.hpcloud.com/hos.docs-hos-30/#helion/operations/monitoring_service.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/bare_installation_esx.*$ http://docs-staging.hpcloud.com/hos.docs-hos-30/#helion/installation/install_entryscale_esx.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/cinder_vsa.*$ http://docs-staging.hpcloud.com/hos.docs-hos-30/#helion/installation/configure_vsa.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/installation_troubleshooting.*$ http://docs-staging.hpcloud.com/hos.docs-hos-30/#helion/installation/installation_troubleshooting.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/helion/input_model.*$ http://docs-staging.hpcloud.com/hos.docs-hos-30/#helion/input_model.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/supportedconfigs.*$ http://docs-staging.hpcloud.com/hos.docs-hos-30/#helion/example_configurations.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/installation/configure_ceph.*$ http://docs-staging.hpcloud.com/hos.docs-hos-30/#helion/installation/configure_ceph.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/hardware.*$ http://docs-staging.hpcloud.com/hos.docs-hos-30/#helion/hardware.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/eula.*$ http://docs-staging.hpcloud.com/hos.docs-hos-30/#helion/3rd-party-license-agreements_21.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/gui_installer.*$ http://docs-staging.hpcloud.com/hos.docs-hos-30/#helion/gui_installer.html [NE,R=301,L]
-#
+RewriteRule ^permalink/helion-openstack/3.0/identity/identity_ldap.*$ http://docs.hpcloud.com/other/30PreRelease/#helion/operations/configuring/identity/identity_ldap.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/monasca.*$ http://docs.hpcloud.com/other/30PreRelease/#helion/operations/monitoring_service.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/bare_installation_esx.*$ http://docs.hpcloud.com/other/30PreRelease/#helion/installation/install_esx_overview.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/cinder_vsa.*$ http://docs.hpcloud.com/other/30PreRelease/#helion/installation/configure_vsa.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/installation_troubleshooting.*$ http://docs.hpcloud.com/other/30PreRelease/#helion/installation/installation_troubleshooting.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/helion/input_model.*$ http://docs.hpcloud.com/other/30PreRelease/#helion/architecture/input_model/input_model.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/supportedconfigs.*$ http://docs.hpcloud.com/other/30PreRelease/#helion/architecture/example_configurations.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/installation/configure_ceph.*$ http://docs.hpcloud.com/other/30PreRelease/#helion/installation/configure_ceph.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/hardware.*$ http://docs.hpcloud.com/other/30PreRelease/#helion/hardware.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/eula.*$ http://docs.hpcloud.com/other/30PreRelease/#helion/eula_30.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/gui_installer.*$ http://docs.hpcloud.com/other/30PreRelease/#helion/installation/gui_installer.html [NE,R=301,L]
+# #### end gui installer links
 RedirectMatch 301 /eucalyptus/4.2.0(.*) /eucalyptus/4.2.1$1
 RedirectMatch 301 /eucalyptus/4.1.2/(.*) /pdf/static/Eucalyptus_4.1/$1
 RedirectMatch 301 /eucalyptus/4.0.2/(.*) /pdf/static/Eucalyptus_4.0/$1
