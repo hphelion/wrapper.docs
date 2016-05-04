@@ -18,7 +18,7 @@
   <!--permalink: -->
   <!--permalink: /-->
   <topicref href="home.dita"/>
-  <mapref href="docs.hpcloud.com.HOS.ditamap" format="ditamap"/>
+  <mapref href="3.x/docs.hpcloud.com.HOS.ditamap"  navtitle="HPE Helion OpenStack 3.x"  format="ditamap"/>
   <mapref href="devplatform/docs.hpcloud.com.HDP.ditamap" format="ditamap"/>
   <mapref href="docs.hpcloud.com.HCF.0.10.TP.ditamap" format="ditamap"/>
   <mapref href="docs.hpcloud.com.CGH.20.ditamap" format="ditamap"/>
@@ -61,8 +61,10 @@
       navtitle="HPE Helion Development Platform 1.2" locktitle="yes"/>
     <mapref href="docs.hpcloud.com.HDP.1.1.ditamap" format="ditamap"
       navtitle="HPE Helion Development Platform 1.1" locktitle="yes"/>
+    <mapref href="docs.hpcloud.com.HOS.ditamap"  navtitle="HPE Helion OpenStack 2.X"  format="ditamap"/>
     <mapref href="docs.hpcloud.com.HOS.1.1.x.ditamap" format="ditamap"
       navtitle="HPE Helion OpenStack 1.1.1 and 1.1" locktitle="yes"/>
+  
     <mapref href="docs.hpcloud.com.HDP1.0.ditamap" format="ditamap"
       navtitle="HPE Helion Development Platform 1.0" locktitle="yes"/>
     <mapref href="docs.hpcloud.com.HOS.1.0.ditamap" format="ditamap"
