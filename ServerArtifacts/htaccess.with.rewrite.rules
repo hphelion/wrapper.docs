@@ -6,6 +6,8 @@ ErrorDocument 404 /404.html
 Options +FollowSymLinks
 RewriteEngine on
 #
+RewriteRule ^#3.x/helion/operations/alarmresolution.*$http://docs.hpcloud.com/#3.x/helion/operations/alarm_resolutions.html 
+
 RewriteRule ^permalink/eucalyptus/most-current/release-notes.*$ http://docs.hpcloud.com/eucalyptus/4.2.2/#release-notes/4.2.2/4.2.2_index.html  [NE,R=301,L] 
 RewriteRule ^permalink/eucalyptus/most-current/installing_euca_release.*$ http://docs.hpcloud.com/eucalyptus/4.2.2/#install-guide/installing_euca_release.html [NE,R=301,L]
 RewriteRule ^permalink/eucalyptus/most-current/install-guide.*$ http://docs.hpcloud.com/eucalyptus/4.2.2/#install-guide/index.html  [NE,R=301,L] 
