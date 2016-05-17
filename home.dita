@@ -20,13 +20,22 @@
     <simpletable id="homepageTable" relcolwidth="1.0* 5.06*">
       <strow>
         <stentry>
-          <xref href="3.x/helion/index.dita">HPE Helion <tm tmtype="reg">OpenStack</tm></xref>
+          <xref href="3.x/helion/index.dita">HPE Helion <tm tmtype="reg">OpenStack</tm> 3.0</xref>
         </stentry>
+        <stentry>A commercial-grade software solution that enables customers to deploy private,
+          managed, hybrid, and public cloud services based on OpenStack HPE Helion OpenStack reduces
+          complexity of cloud deployments. <p><xref
+              href="http://docs.hpcloud.com/pdf/HPE_Helion_OpenStack_3.0_Complete_Documentation.pdf"
+              format="pdf" scope="external">PDF Download</xref></p></stentry>
+      </strow>
+      <strow>
+        <stentry><xref href="helion/index.dita">HPE Helion <tm tmtype="reg">OpenStack</tm> 2.1,
+            2.0</xref></stentry>
         <stentry>A commercial-grade software solution that enables customers to deploy private,
           managed, hybrid, and public cloud services based on OpenStack HPE Helion OpenStack reduces
           complexity of cloud deployments, and is the underlying platform for the Helion Development
           Platform. <p><xref
-              href="http://docs.hpcloud.com/pdf/HPE_Helion_OpenStack_3.0_Complete_Documentation.pdf"
+              href="http://docs.hpcloud.com/pdf/HPE_Helion_OpenStack_2.0_and_2.1_Complete_Documentation.pdf"
               format="pdf" scope="external">PDF Download</xref></p></stentry>
       </strow>
       <strow>
