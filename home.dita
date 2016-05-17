@@ -17,16 +17,17 @@
     <p>HPE Helion provides public, private, and managed cloud solutions to get you moving on your
       cloud journey. Whichever HPE Helion product you are using, we have all the documentation
       resources and references for you.</p>
-    <simpletable id="homepageTable" relcolwidth="1.0* 5.06*">
+    <simpletable id="homepageTable" relcolwidth="1.0* 5.06* 1.0*">
       <strow>
         <stentry>
           <xref href="3.x/helion/index.dita">HPE Helion <tm tmtype="reg">OpenStack</tm> 3.0</xref>
         </stentry>
         <stentry>A commercial-grade software solution that enables customers to deploy private,
           managed, hybrid, and public cloud services based on OpenStack HPE Helion OpenStack reduces
-          complexity of cloud deployments. <p><xref
-              href="http://docs.hpcloud.com/pdf/HPE_Helion_OpenStack_3.0_Complete_Documentation.pdf"
-              format="pdf" scope="external">PDF Download</xref></p></stentry>
+          complexity of cloud deployments.</stentry>
+        <stentry><xref
+            href="http://docs.hpcloud.com/pdf/HPE_Helion_OpenStack_3.0_Complete_Documentation.pdf"
+            format="pdf" scope="external">PDF Download</xref></stentry>
       </strow>
       <strow>
         <stentry><xref href="helion/index.dita">HPE Helion <tm tmtype="reg">OpenStack</tm> 2.1,
@@ -34,9 +35,10 @@
         <stentry>A commercial-grade software solution that enables customers to deploy private,
           managed, hybrid, and public cloud services based on OpenStack HPE Helion OpenStack reduces
           complexity of cloud deployments, and is the underlying platform for the Helion Development
-          Platform. <p><xref
-              href="http://docs.hpcloud.com/pdf/HPE_Helion_OpenStack_2.0_and_2.1_Complete_Documentation.pdf"
-              format="pdf" scope="external">PDF Download</xref></p></stentry>
+          Platform.</stentry>
+        <stentry><xref
+            href="http://docs.hpcloud.com/pdf/HPE_Helion_OpenStack_2.0_and_2.1_Complete_Documentation.pdf"
+            format="pdf" scope="external">PDF Download</xref></stentry>
       </strow>
       <strow>
         <stentry>
@@ -45,6 +47,7 @@
         <stentry>Based on <tm tmtype="tm">Cloud Foundry</tm>, this add-on for HPE Helion OpenStack
           empowers developers and IT professionals by providing an open development platform
           designed for agility. </stentry>
+        <stentry/>
       </strow>
       <strow>
         <stentry>
@@ -53,6 +56,7 @@
         <stentry>A certified distribution of Cloud Foundry. Instead of deploying virtual machines,
           Helion Cloud Foundry uses containers for bundling all major functions, for representing
           roles, and for providing simple update and upgrade workflows. </stentry>
+        <stentry/>
       </strow>
       <strow>
         <stentry>
@@ -62,6 +66,7 @@
         <stentry>A carrier-grade OpenStack solution plus compute and network functions
           virtualization (NFV) offering that enables CSPs to deploy applications on open source
           software platforms. </stentry>
+        <stentry/>
       </strow>
       <strow>
         <stentry>
@@ -69,8 +74,8 @@
         </stentry>
         <stentry>Open source software that enables IT leaders to easily build, deploy and manage
           AWS-compatible hybrid clouds. With HPE Helion Eucalyptus, users can rapidly migrate
-          existing AWS applications and workloads to a private or managed cloud environment.
-        </stentry>
+          existing AWS applications and workloads to a private or managed cloud environment. </stentry>
+        <stentry/>
       </strow>
       <strow>
         <stentry>
@@ -80,12 +85,14 @@
           management to design and orchestrate full stack services. CSA embraces existing automation
           assets with an enhanced orchestration engine, which provides IT with an informed,
           transparent delivery of secure compliant services for the hybrid cloud. </stentry>
+        <stentry/>
       </strow>
       <strow>
         <stentry><xref href="codar-landing-page.dita">HPE Codar </xref>
         </stentry>
         <stentry>A continuous delivery solution that provides automated deployment and release
           management of complex multi-tier applications across the application lifecycle. </stentry>
+        <stentry/>
       </strow>
       <strow>
         <stentry>
@@ -95,6 +102,7 @@
           provisioning and lifecycle management of compute, network and storage resources. Integrate
           servers, storage, networking, security, and management to automate the lifecycle for
           hybrid service delivery. </stentry>
+        <stentry/>
       </strow>
       <strow>
         <stentry>
@@ -105,6 +113,7 @@
           Helion product and service offerings. Solutions like HPE Helion Content Depot and HPE
           Helion Rack include everything you need to be successful when facing a demanding cloud use
           case. </stentry>
+        <stentry/>
       </strow>
     </simpletable>
   </body>
