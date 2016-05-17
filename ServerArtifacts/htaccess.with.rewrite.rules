@@ -6,8 +6,6 @@ ErrorDocument 404 /404.html
 Options +FollowSymLinks
 RewriteEngine on
 #
-RewriteRule ^#3.x/helion/operations/alarmresolution.html.*$ http://docs.hpcloud.com/#3.x/helion/operations/alarm_resolutions.html [NE,R=301,L]
-RewriteRule ^helion/operations/alarmresolution.html http://docs.hpcloud.com/#3.x/helion/operations/alarm_resolutions.html 
 RewriteRule ^permalink/eucalyptus/most-current/release-notes.*$ http://docs.hpcloud.com/eucalyptus/4.2.2/#release-notes/4.2.2/4.2.2_index.html  [NE,R=301,L] 
 RewriteRule ^permalink/eucalyptus/most-current/installing_euca_release.*$ http://docs.hpcloud.com/eucalyptus/4.2.2/#install-guide/installing_euca_release.html [NE,R=301,L]
 RewriteRule ^permalink/eucalyptus/most-current/install-guide.*$ http://docs.hpcloud.com/eucalyptus/4.2.2/#install-guide/index.html  [NE,R=301,L] 
@@ -38,7 +36,6 @@ RewriteRule ^permalink/helion-openstack/3.0/opsconsole_networking_summary.*$ htt
 RewriteRule ^permalink/helion-openstack/3.0/opsconsole_storage_summary.*$ http://docs.hpcloud.com/#helion/operations/opsconsole/storage_summary.html [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/3.0/opsconsole_hdp_summary.*$ http://docs.hpcloud.com/#helion/operations/opsconsole/hdp_summary.html [NE,R=301,L]
 # #### gui installer links
-RewriteRule ^http://docs.hpcloud.com/#3.x/helion/operations/alarmresolution.*$ http://docs.hpcloud.com/#3.x/helion/operations/alarm_resolutions.html [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/3.0/opsconsole_my_dashboard_overview.*$ http://docs-staging.hpcloud.com/HOS3.0pre-release/#helion/operations/opsconsole/my_dashboard_overview.html  [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/3.0/opsconsole_block_storage_alarm.*$ http://docs-staging.hpcloud.com/HOS3.0pre-release/#helion/operations/opsconsole/block_storage_alarm.html  [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/3.0/opsconsole_perf_storage.*$ http://docs-staging.hpcloud.com/HOS3.0pre-release/#helion/operations/opsconsole/perf_storage.html [NE,R=301,L]
