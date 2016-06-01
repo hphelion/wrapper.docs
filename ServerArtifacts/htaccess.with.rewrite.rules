@@ -14,6 +14,7 @@ RewriteRule ^permalink/eucalyptus/most-current/euca2ools-guide.*$ http://docs.hp
 RewriteRule ^permalink/eucalyptus/most-current/euca2ools-release-notes.*$ http://docs.hpcloud.com/eucalyptus/4.2.2/#euca2ools-release-notes/rn_index_3.3.1.html  [NE,R=301,L] 
 #
 RewriteRule ^permalink/helion-openstack/3.0/opsconsole_alarm_resolutions.*$ http://docs.hpcloud.com/#helion/operations/opsconsole/alarm_resolutions.html  [NE,R=301,L] 
+RewriteRule ^permalink/helion-openstack/3.0/alarmresolution.*$ http://docs.hpcloud.com/#3.x/helion/operations/alarm_resolutions.html [NE,R=301,L] 
 
 RewriteRule ^permalink/helion-openstack/3.0/3rd-party-license-agreements.*$ http://docs.hpcloud.com/#helion/3rd-party-license-agreements_21.html  [NE,R=301,L]
 #
