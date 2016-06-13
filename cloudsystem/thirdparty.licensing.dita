@@ -20,9 +20,9 @@
       <li><xref
           href="http://docs.hpcloud.com/pdf/static/OO_OpenSource_ThirdParty-10_20.pdf"
           format="pdf" scope="external">Operations Orchestration 10.20</xref></li>
-  <!-- <li><xref
-                    href="http://docs.hpcloud.com/pdf/static/HP_Vertica_71_OSRB_Licensing.pdf"
-                    format="pdf" scope="external">Vertica Analytic Database</xref></li> -->
+  <li><xref
+                    href="https://my.vertica.com/docs/7.1.x/PDF/HP_Vertica_7.1.x_Third_Party.pdf"
+                    format="pdf" scope="external">Vertica Analytic Database</xref></li> 
             <li><xref
                     href="http://h20564.www2.hpe.com/hpsc/doc/public/display?docId=c04647291"
                     format="html" scope="external">VAN SDN Controller and HPE Converged Control SDN
