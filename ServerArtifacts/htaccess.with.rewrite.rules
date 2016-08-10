@@ -40,7 +40,8 @@ RewriteRule ^permalink/helion-openstack/3.0/opsconsole_alarmresolution.*$ http:/
 
 # #### gui installer links
 RewriteRule ^permalink/helion-openstack/3.0/cs_opsconsole_block_storage_devices.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/cs_opsconsole_block_storage_devices.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/cs_opsconsole_hardware.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/cs_opsconsole_hardware.html  [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/cs_opsconsole_hardware_baremetal.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/cs_opsconsole_hardware_baremetal.html  [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/cs_opsconsole_hardware_oneview.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/cs_opsconsole_hardware_oneview.html  [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/3.0/cs_opsconsole_backup_restore.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/cs_opsconsole_backup_restore.html  [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/3.0/cs_opsconsole_system_networking.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/cs_opsconsole_system_networking.html  [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/3.0/cs_opsconsole_appliances.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/cs_opsconsole_appliances.html  [NE,R=301,L]
