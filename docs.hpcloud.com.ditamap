@@ -21,6 +21,7 @@
   <mapref href="3.x/docs.hpcloud.com.HOS.ditamap" navtitle="HPE Helion OpenStack 3.x"
     format="ditamap"/>
   <mapref href="docs.hpcloud.com.HOS.ditamap" navtitle="HPE Helion OpenStack 2.x" format="ditamap"/>
+  <mapref href="hrc/docs.hpcloud.com.HRC.ditamap" format="ditamap"/>
   <mapref href="devplatform/docs.hpcloud.com.HDP.ditamap" format="ditamap"/>
   <mapref href="docs.hpcloud.com.HCF.0.10.TP.ditamap" format="ditamap"/>
   <mapref href="docs.hpcloud.com.CGH.20.ditamap" format="ditamap"/>
