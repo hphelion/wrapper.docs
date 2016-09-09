@@ -1168,6 +1168,8 @@
                 <entry>
                   Firmware Version: QES 1.1.2
                    <p>Protocol: iSCSI</p>
+                   <p><xref
+              href="http://docs.hpcloud.com/#3.x/helion/ihv/qnap/qnap_integration.html#qnap_es_helion_integration" format="html" scope="external">http://docs.hpcloud.com/#3.x/helion/ihv/qnap/qnap_integration.html#qnap_es_helion_integration</xref></xref></p>
                 </entry>
                 <entry>Certified</entry>
               </row>
