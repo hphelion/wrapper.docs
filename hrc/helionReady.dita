@@ -1048,7 +1048,7 @@
             <entry>Storage</entry>
             <entry>Scality RING</entry>
             <entry>2.x</entry>
-            <entry>Ring software: 5.1.5<p>HPE Helion OpenStack 2.x:</p><p><xref
+            <entry>Ring software: 5.1.5<p>HPE Helion OpenStack 2.x:<xref
               href="http://docs.hpcloud.com/helion/objectstorage/scality/Scality_overview.html" scope="external"
                 format="html"
                 >http://docs.hpcloud.com/helion/objectstorage/scality/Scality_overview.html</xref></p></entry>
@@ -1168,7 +1168,7 @@
                 <entry>
                   Firmware Version: QES 1.1.2
                    <p>Protocol: iSCSI</p>
-                   <p><xref
+                   <p>HPE Helion OpenStack 3.x: <xref
               href="http://docs.hpcloud.com/#3.x/helion/ihv/qnap/qnap_integration.html" format="html" scope="external">http://docs.hpcloud.com/#3.x/helion/ihv/qnap/qnap_integration.html#qnap_es_helion_integration</xref></p>
                 </entry>
                 <entry>Certified</entry>
