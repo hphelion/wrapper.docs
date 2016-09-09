@@ -1048,10 +1048,10 @@
             <entry>Storage</entry>
             <entry>Scality RING</entry>
             <entry>2.x</entry>
-            <entry>Ring software: 5.1.5<p>HPE Helion OpenStack 2.x:<xref
+            <entry>Ring software: 5.1.5<p/>HPE Helion OpenStack 2.x:       <xref
               href="http://docs.hpcloud.com/helion/objectstorage/scality/Scality_overview.html" scope="external"
                 format="html"
-                >http://docs.hpcloud.com/helion/objectstorage/scality/Scality_overview.html</xref></p></entry>
+                >http://docs.hpcloud.com/helion/objectstorage/scality/Scality_overview.html</xref></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Networking</entry>
