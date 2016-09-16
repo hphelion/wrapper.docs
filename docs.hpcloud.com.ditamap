@@ -42,7 +42,7 @@
 
   <!-- END Public cloud -->
   <topicref href="cloudsystem/cloudsystem.landingpage.dita"
-    navtitle="HPE Helion CloudSystem 9.0 Update 1" locktitle="yes">
+    navtitle="HPE Helion CloudSystem 10.0" locktitle="yes">
     <topicref href="cloudsystem/licensing.dita" navtitle="Open-Source and Third-Party Licensing"
       locktitle="yes" toc="no"/>
 
