@@ -3,59 +3,65 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN"
  "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
 <topic id="topic2261cs" xml:lang="en-us">
-<title>HPE Helion CloudSystem</title>
+<title>HPE Helion CloudSystem 10.0</title>
 <prolog>
 <metadata>
 <othermeta content="default" name="layout"/></metadata>
 </prolog>
 <body>
-<p>HPE Helion CloudSystem delivers an enterprise private cloud in
-HPE Converged Infrastructure environments. HPE Helion CloudSystem
-is available as standalone software that supports a multiple vendor
-hardware environment or as an integrated infrastructure with HPE ConvergedSystem.</p>
-<p>Helion CloudSystem 9.0 Update 1 is a patch kit that is applied
-to an existing installation of Helion CloudSystem 9.0. You can obtain
-the update from the <xref format="html"
-href="http://www.software.hp.com" type="external">Software Depot</xref
->.</p>
-<p>HPE Helion CloudSystem consists of two offerings. </p>
+<p>Helion CloudSystem 10.0 is designed for converged infrastructure
+environments and provides a software-defined approach to managing
+the cloud. Helion CloudSystem consists of two offerings: HPE Helion
+CloudSystem Foundation and HPE Helion CloudSystem Enterprise.</p>
 <ul>
-<li><p>HPE Helion CloudSystem Foundation is based on the HPE Helion
-OpenStack distribution of OpenStack cloud software and includes Helion
-Development Platform and DNS as a Service. </p></li>
-<li><p>HPE Helion CloudSystem Enterprise expands on CloudSystem Foundation
-through the addition of HPE Cloud Service Automation and HPE Operations
-Orchestration. CloudSystem Enterprise automates the integration of
-servers, storage, networking, security, and monitoring capabilities
-throughout the infrastructure service delivery lifecycle of a virtualized
-data center.</p><p>HPE Helion CloudSystem Enterprise offers additional
-design tools and provider integration, including OpenStack, HPE OneView,
-and Amazon Web Services through HPE Helion Eucalyptus. With the Marketplace
-Portal, users have secure access to these services. </p></li>
+<li><p>Helion CloudSystem Foundation is based on the Helion OpenStack
+Liberty distribution of OpenStack cloud software. It integrates hardware
+and software to deliver core Infrastructure as a Service (IaaS) provisioning
+and life cycle management of compute, network, and storage resources.
+You manage Helion CloudSystem from its Operations Console and its
+CLIs. You develop, deploy, and scale cloud applications using the
+OpenStack user portal and the OpenStack APIs and CLIs.</p><p>HPE Helion
+Stackato (formerly Helion Development Platform) is an application
+platform or Platform as a Service (PaaS) that enables developers to
+rapidly develop, deploy, and scale cloud applications across a mix
+of public and private clouds. Stackato supports a wide and growing
+list of programming languages and technologies.</p></li>
+<li><p>Helion CloudSystem Enterprise adds features in HPE Cloud Service
+Automation (HPE CSA) that integrate servers, storage, networking,
+security, and management to automate the life cycle for hybrid service
+delivery. Application architects can use Enterprise to create application
+and infrastructure templates and publish them as offerings in a service
+catalog. Users select offerings from a catalog and request provisioning
+of a new service instance, or subscription. When a service is requested,
+Enterprise automatically provisions the servers, storage, and networking
+into a subscription.</p><p>Helion CloudSystem Enterprise includes
+an embedded version of HPE Operations Orchestration (OO), which backs
+HPE CSA orchestration with the content and automation to provision
+and maintain subscriptions. OO can also be used to automate administrative
+or run-book processes.</p></li>
 </ul>
 <section id="documentation-library"><title>Documentation Library</title
->   <p>The HPE Helion CloudSystem Documentation Library provides the
-most up-to-date version of Helion CloudSystem documents available
+><p>The HPE Helion CloudSystem Documentation Library provides the
+most up-to-date versions of Helion CloudSystem documents available
 on the <xref format="html"
-href="http://h17007.www1.hpe.com/us/en/enterprise/converged-infrastructure/info-library/index.aspx?solution=cs_helion#.VrS9rk2FO00"
-type="external">Hewlett Packard Enterprise Information Library</xref
->. The table below shows all documents released to support the HPE
-Helion CloudSystem 9.0 Update 1 release.</p>      <p><b>HPE Helion
-CloudSystem Documents</b></p>   <table>
+href="http://www.hpe.com/info/cloudsystem/docs" type="external">Hewlett
+Packard Enterprise Information Library</xref>. The table below links
+to HPE Helion CloudSystem 10.0 documents.</p><p><b>HPE Helion CloudSystem
+Documents</b></p><table>
 <tgroup cols="4"><colspec colname="DocumentName" colnum="1"
-colwidth="1.55*"/><colspec colname="4.00" colnum="2" colwidth="0.52*"/>
-<colspec colname="4.01" colnum="3" colwidth="0.63*"/><colspec
-colname="Comment" colnum="4" colwidth="1.31*"/>
+colwidth="1.55*"/><colspec colname="4.01" colnum="2" colwidth="0.70*"/>
+<colspec colname="COLSPEC0" colnum="3" colwidth="0.52*"/><colspec
+colname="Comment" colnum="4" colwidth="2.03*"/>
 <thead>
 <row>
 <entry></entry>
-<entry align="center" nameend="4.01" namest="4.00">DOWNLOAD</entry>
+<entry align="center" nameend="COLSPEC0" namest="4.01">DOWNLOAD</entry>
 <entry></entry>
 </row>
 <row>
 <entry outputclass="headerrow">Document Name</entry>
-<entry>9.0</entry>
 <entry>9.0 Update 1</entry>
+<entry outputclass="headerrow">10.0</entry>
 <entry outputclass="headerrow">Comment</entry>
 </row>
 </thead>
@@ -67,30 +73,30 @@ colname="Comment" colnum="4" colwidth="1.31*"/>
 <row>
 <entry>Network Planning Guide</entry>
 <entry><xref format="html"
-href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04779032"
+href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04863525"
 type="external">go</xref></entry>
 <entry><xref format="html"
-href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04863525"
+href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04954242"
 type="external">go</xref></entry>
 <entry>Read Before Installation!</entry>
 </row>
 <row>
 <entry>Release Notes</entry>
 <entry><xref format="html"
-href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04782707"
+href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04863570"
 type="external">go</xref></entry>
 <entry><xref format="html"
-href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04863570"
+href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04954248"
 type="external">go</xref></entry>
 <entry>Read Before Installation!</entry>
 </row>
 <row>
 <entry>Support Matrix</entry>
 <entry><xref format="html"
-href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04779146"
+href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04863602"
 type="external">go</xref></entry>
 <entry><xref format="html"
-href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04863602"
+href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04954263"
 type="external">go</xref></entry>
 <entry>Read Before Installation!</entry>
 </row>
@@ -99,31 +105,35 @@ type="external">go</xref></entry>
 ><b>Installation and Migration Guides</b></entry>
 </row>
 <row>
-<entry>Software Installation Overview</entry>
-<entry><xref format="html"
-href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04220389"
-type="external">go</xref></entry>
+<entry>HPE Helion CloudSystem ESXi Installation Guide</entry>
 <entry>N/A</entry>
-<entry>Read this before installing Helion CloudSystem as part of a
-cloud solution that includes HPE OneView or HPE Insight Control server
-provisioning.</entry>
-</row>
-<row>
-<entry>Installation Guide</entry>
 <entry><xref format="html"
-href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04782708"
-type="external">go</xref></entry>
-<entry><xref format="html"
-href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04818302"
+href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c05078772"
 type="external">go</xref></entry>
 <entry></entry>
 </row>
 <row>
-<entry>Migration Guide (8.1 U2 to 9.0 U1)</entry>
+<entry>HPE Helion CloudSystem KVM Installation Guide</entry>
 <entry>N/A</entry>
+<entry><xref format="html"
+href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04954213"
+type="external">go</xref></entry>
+<entry></entry>
+</row>
+<row>
+<entry>Installation Guide</entry>
+<entry><xref format="html"
+href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04818302"
+type="external">go</xref></entry>
+<entry>N/A</entry>
+<entry></entry>
+</row>
+<row>
+<entry>Migration Guide (8.1 U2 to 9.0 U1)</entry>
 <entry><xref format="html"
 href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04863625"
 type="external">go</xref></entry>
+<entry>N/A</entry>
 <entry></entry>
 </row>
 <row>
@@ -133,10 +143,10 @@ type="external">go</xref></entry>
 <row>
 <entry>Administrator Guide</entry>
 <entry><xref format="html"
-href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04782709"
+href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04818287"
 type="external">go</xref></entry>
 <entry><xref format="html"
-href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04818287"
+href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04954201"
 type="external">go</xref></entry>
 <entry></entry>
 </row>
@@ -150,7 +160,7 @@ type="external">go</xref></entry>
 href="http://h17007.www1.hpe.com/docs/enterprise/converged/cloudsystem/9.0/webhelp/content/index.html"
 type="external">go</xref></entry>
 <entry><xref format="html"
-href="http://h17007.www1.hpe.com/docs/enterprise/converged/cloudsystem/9.0/webhelp/content/index.html"
+href="http://docs.hpcloud.com/#3.x/helion/operations/opsconsole_overview.html"
 type="external">go</xref></entry>
 <entry></entry>
 </row>
@@ -161,20 +171,20 @@ type="external">go</xref></entry>
 <row>
 <entry>CLI Guide</entry>
 <entry><xref format="html"
-href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04779081"
+href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04818301"
 type="external">go</xref></entry>
 <entry><xref format="html"
-href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04818301"
+href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04954207"
 type="external">go</xref></entry>
 <entry></entry>
 </row>
 <row>
 <entry>Troubleshooting Guide</entry>
 <entry><xref format="html"
-href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04779201"
+href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04863616"
 type="external">go</xref></entry>
 <entry><xref format="html"
-href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04863616"
+href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04954287"
 type="external">go</xref></entry>
 <entry></entry>
 </row>
@@ -183,144 +193,37 @@ type="external">go</xref></entry>
 ><b>White Papers</b></entry>
 </row>
 <row>
-<entry>Backup-as-a-Service with HP Helion CloudSystem Enterprise:
-Integrating HP LiveVault Service with OpenStack technology</entry>
-<entry nameend="4.01" namest="4.00"><xref format="html"
-href="http://h20195.www2.hpe.com/V2/GetDocument.aspx?docname=4AA6-2799ENW&amp;cc=us&amp;lc=en"
+<entry>HPE Cloud Service Automation OpenStack Integration (16.07)</entry>
+<entry>N/A</entry>
+<entry><xref format="html"
+href="http://h20564.www2.hpe.com/hpsc/doc/public/display?docId=c04377102"
 type="external">go</xref></entry>
 <entry></entry>
 </row>
 <row>
-<entry>Backup-as-a Service with HP Helion CloudSystem Enterprise:
-Integrating HP LiveVault Service with Cloud Service Automation</entry>
-<entry nameend="4.01" namest="4.00"><xref format="html"
-href="http://h20195.www2.hpe.com/V2/GetDocument.aspx?docname=4AA5-9145ENW&amp;cc=us&amp;lc=en"
+<entry>HPE Cloud Service Automation/Codar OpenStack Integration Topology
+(16.07)</entry>
+<entry>N/A</entry>
+<entry><xref format="html"
+href="http://h20564.www2.hpe.com/hpsc/doc/public/display?docId=c04814346"
 type="external">go</xref></entry>
 <entry></entry>
 </row>
 <row>
-<entry>Using an HP Operations Orchestration
-Remote Action Server (RAS)</entry>
-<entry nameend="4.01" namest="4.00"><xref format="html"
-href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04884722"
+<entry>HPE Cloud Service Automation HPE OneView and Insight Control
+server provisioning (16.07)</entry>
+<entry>NA</entry>
+<entry><xref format="html"
+href="http://h20564.www2.hpe.com/hpsc/doc/public/display?docId=c04814322"
 type="external">go</xref></entry>
 <entry></entry>
 </row>
 <row>
-<entry>HP Helion CloudSystem 9.0: Using Windows Hyper-V Server 2012
-R2 as Compute Notes</entry>
-<entry nameend="4.01" namest="4.00"><xref format="html"
-href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04884719"
-type="external">go</xref></entry>
-<entry></entry>
-</row>
-<row>
-<entry>HP Cloud Service Automation OpenStack Integration – Sequential
-(15.08)</entry>
-<entry nameend="4.01" namest="4.00"><xref format="html"
-href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04814322"
-type="external">go</xref></entry>
-<entry></entry>
-</row>
-<row>
-<entry>HP Cloud Service Automation OpenStack Integration – Topology
- (15.08)</entry>
-<entry nameend="4.01" namest="4.00"><xref format="html"
-href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04814346"
-type="external">go</xref></entry>
-<entry></entry>
-</row>
-<row>
-<entry>HP Cloud Service Automation Version 4.50 FIPS 140-2 Compliance
-Statement</entry>
-<entry nameend="4.01" namest="4.00"><xref format="html"
-href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04377102"
-type="external">go</xref></entry>
-<entry></entry>
-</row>
-<row>
-<entry>HP Cloud Service Automation: HP OneView Managed Server Provisioning
-(15.08)</entry>
-<entry nameend="4.01" namest="4.00"><xref format="html"
-href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04618680"
-type="external">go</xref></entry>
-<entry></entry>
-</row>
-<row>
-<entry>HP Helion CloudSystem 9.0 networking configuration and troubleshooting</entry>
-<entry nameend="4.01" namest="4.00"><xref format="html"
-href="http://h20195.www2.hpe.com/V2/GetDocument.aspx?docname=4AA6-1962ENW&amp;cc=us&amp;lc=en"
-type="external">go</xref></entry>
-<entry></entry>
-</row>
-<row>
-<entry>HP Helion CloudSystem 9.0: Centralized Logging</entry>
-<entry nameend="4.01" namest="4.00"><xref format="html"
-href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04863622"
-type="external">go</xref></entry>
-<entry></entry>
-</row>
-<row>
-<entry>HP Helion CloudSystem 9.0: Configuring Multitenancy Using OpenLDAP
-or Microsoft Active Directory</entry>
-<entry nameend="4.01" namest="4.00"><xref format="html"
-href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04916817"
-type="external">go</xref></entry>
-<entry></entry>
-</row>
-<row>
-<entry>HP Helion CloudSystem 9.0: Deploying Multi-tier applications
-with HP OneView and Helion OpenStack technology in a multi-tenant
-environment</entry>
-<entry nameend="4.01" namest="4.00"><xref format="html"
-href="http://h20195.www2.hpe.com/V2/GetDocument.aspx?docname=4AA6-2792ENW&amp;cc=us&amp;lc=en"
-type="external">go</xref></entry>
-<entry></entry>
-</row>
-<row>
-<entry>HP Helion CloudSystem 9.0: Managing multiple hypervisors with
-OpenStack technology</entry>
-<entry nameend="4.01" namest="4.00"><xref format="html"
-href="http://h20195.www2.hpe.com/V2/GetDocument.aspx?docname=4AA6-2500ENW&amp;cc=us&amp;lc=en"
-type="external">go</xref></entry>
-<entry></entry>
-</row>
-<row>
-<entry>HP Helion CloudSystem 9.0: Monasca (Monitoring) Agent</entry>
-<entry nameend="4.01" namest="4.00"><xref format="html"
-href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04863623"
-type="external">go</xref></entry>
-<entry></entry>
-</row>
-<row>
-<entry>HP Helion CloudSystem 9.0: Performance and Scalability Solution
-with KVM and ESXi Hypervisors</entry>
-<entry nameend="4.01" namest="4.00"><xref format="html"
-href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04867887"
-type="external">go</xref></entry>
-<entry></entry>
-</row>
-<row>
-<entry>HP Helion CloudSystem 9.0: Using an HP Operations Orchestration
-Remote Action Server</entry>
-<entry nameend="4.01" namest="4.00"><xref format="html"
-href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04884722"
-type="external">go</xref></entry>
-<entry></entry>
-</row>
-<row>
-<entry>HP Helion CloudSystem 9.0: Using VMware ESXi Clusters as Compute
-Nodes</entry>
-<entry nameend="4.01" namest="4.00"><xref format="html"
-href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04863624"
-type="external">go</xref></entry>
-<entry></entry>
-</row>
-<row>
-<entry>HP Helion CloudSystem 9.0: Using Windows Hyper-V Server 2012
-R2 as Compute Nodes</entry>
-<entry nameend="4.01" namest="4.00"><xref format="html"
-href="http://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=c04884719"
+<entry>HPE Cloud Service Automation/Codar HPE OneView and Insight
+Control server provisioning Topology (16.07)</entry>
+<entry>N/A</entry>
+<entry><xref format="html"
+href="http://h20564.www2.hpe.com/hpsc/doc/public/display?docId=c04618680"
 type="external">go</xref></entry>
 <entry></entry>
 </row>
@@ -329,39 +232,61 @@ type="external">go</xref></entry>
 ><b>Additional Information</b></entry>
 </row>
 <row>
-<entry>Open Source and Third-Party Software License Agreements</entry>
-<entry>N/A</entry>
+<entry>HPE Helion CloudSystem 10.0 Open Source and Third-Party License
+Agreements</entry>
 <entry><xref format="html"
 href="http://docs.hpcloud.com/#cloudsystem/thirdparty.licensing.html"
 type="external">go</xref></entry>
+<entry><xref
+href=" http://docs.hpcloud.com/pdf/static/HPE_Helion_CloudSystem_10.0_OS3P_Licenses.pdf"
+>go</xref></entry>
 <entry></entry>
 </row>
 <row>
-<entry>Software License Terms</entry>
-<entry>N/A</entry>
-<entry><xref format="html"
-href="http://docs.hpcloud.com/#cloudsystem/licensing.html"
-type="external">go</xref></entry>
+<entry>HPE Helion OpenStack 3.0 Open Source and Third-Party Software
+License Agreements</entry>
+<entry></entry>
+<entry><xref
+href="http://docs.hpcloud.com/pdf/static/HPE_Helion_CloudSystem_10.0_OS3P_Licenses.pdf  "
+>go</xref></entry>
+<entry></entry>
+</row>
+<row>
+<entry>HPE CSA 4.6 Third Party Licenses</entry>
+<entry></entry>
+<entry><xref
+href="http://docs.hpcloud.com/pdf/static/HPE_CSA_460_OS-3rdPty-Licenses.pdf"
+>go</xref></entry>
+<entry></entry>
+</row>
+<row>
+<entry>HPE OO 10.51 Open Source Third Party License Agreements</entry>
+<entry></entry>
+<entry><xref
+href="http://docs.hpcloud.com/pdf/static/OO_OpenSource_ThirdParty-10_51.pdf"
+>go</xref></entry>
 <entry></entry>
 </row>
 </tbody>
 </tgroup>
 </table></section>
-<section><title>Previous versions of Helion CloudSystem documentation</title
-> <p>You can find previous versions of release documentation on the <xref
+<section><title>Previous Versions of Helion CloudSystem Documentation</title
+><p>You can find previous versions of release documentation on the <xref
 format="html" href="http://www.hpe.com/support/hpesc" type="external"
->Support Center</xref>.</p><p>To access the documentation:</p><ul>
+>HPE Support Center</xref>.</p><p>To access the documentation:</p
+><ul>
 <li><p>In the Search field, type CloudSystem Foundation or CloudSystem
 Enterprise.</p></li>
 <li><p>Select <b>Manuals</b>.</p></li>
 <li><p>Select your preferred language.</p></li>
 <li><p>Click <b>View All</b>.</p></li>
 </ul></section>
-<section><title>Support</title>   <p>Visit the HPE Software Depot
-for updates to Helion CloudSystem software:</p><p><xref format="html"
-href="http://www.hpe.com/support/hpesc" type="external">Software Depot</xref
-></p><p>Visit the HPE Support Center for product support:</p><p><xref
-format="html" href="http://www.hpe.com/support/hpesc" type="external"
->Support Center</xref></p></section>
+<section><title>Software Updates and Support</title><p>Visit the HPE
+Software Depot for updates to Helion CloudSystem software:</p><p><xref
+format="html" href="http://www.hpe.com/support/softwaredepot"
+type="external">Software Depot</xref></p><p>Visit the HPE Support
+Center for product support:</p><p><xref format="html"
+href="http://www.hpe.com/support/hpesc" type="external">HPE Support
+Center</xref></p></section>
 </body>
 </topic>

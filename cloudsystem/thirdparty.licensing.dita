@@ -1,34 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<!--Arbortext, Inc., 1988-2014, v.4002-->
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN"
+ "topic.dtd">
 <topic id="topic_mqk_j4l_xs">
-  <title>HPE Helion CloudSystem: Open Source and Third-Party Software License Agreements</title>
-  <body>
-    <p>Open Source and Third-Party Software License Agreements are available here as a PDF download.</p>
+<title>HPE Helion CloudSystem: Open Source and Third-Party Software
+License Agreements</title>
+<body>
+<p>Open Source and Third-Party Software License Agreements are available
+here as a PDF download.</p>
 <ul>
-      <li><xref
-                    href="http://docs.hpcloud.com/pdf/static/HP_CloudSystem_9.0.1_OSRB.pdf"
-                    format="pdf" scope="external">Helion CloudSystem 9.0 Update 1</xref></li>
-      <li><xref
-          href="http://docs.hpcloud.com/pdf/static/HDP_Thirdparty_OS_v2.pdf"
-          format="pdf" scope="external">Helion Development Platform 1.3</xref></li>
-  <li><xref
-          href="http://docs.hpcloud.com/pdf/static/Helion_OS_OSRB_1.1.1.pdf"
-          scope="external" format="pdf">Helion OpenStack 1.1.1</xref></li>
-      <li><xref
-          href="http://docs.hpcloud.com/pdf/static/HP_CSA_450_OSRB_Licensing.pdf"
-          format="pdf" scope="external">Cloud Service Automation (CSA) 4.5</xref></li>
-      <li><xref
-          href="http://docs.hpcloud.com/pdf/static/OO_OpenSource_ThirdParty-10_20.pdf"
-          format="pdf" scope="external">Operations Orchestration 10.20</xref></li>
-  <li><xref
-                    href="https://my.vertica.com/docs/7.1.x/PDF/HP_Vertica_7.1.x_Third_Party.pdf"
-                    format="pdf" scope="external">Vertica Analytic Database</xref></li> 
-            <li><xref
-                    href="http://h20564.www2.hpe.com/hpsc/doc/public/display?docId=c04647291"
-                    format="html" scope="external">VAN SDN Controller and HPE Converged Control SDN
-                    Application</xref></li>
-<li>Codar 1.5: There are no additional license requirements for this product.</li>
-</ul> 
+<li><xref format="pdf"
+href="http://docs.hpcloud.com/pdf/static/HPE_Helion_CloudSystem_10.0_OS3P_Licenses.pdf"
+scope="external">HPE Helion CloudSystem 10.0</xref><ul>
+<li><xref format="pdf"
+href="http://docs.hpcloud.com/pdf/static/HPE_HOS_3.0_OpenSource_and_3rd_Party_Licenses.pdf"
+scope="external">HPE Helion OpenStack 3.0</xref></li>
+<li><xref format="pdf"
+href="http://docs.hpcloud.com/pdf/static/HPE_CSA_460_OS-3rdPty-Licenses.pdf"
+scope="external">HPE Cloud Service Automation (CSA) 4.6</xref></li>
+<li><xref format="pdf"
+href="http://docs.hpcloud.com/pdf/static/OO_OpenSource_ThirdParty-10_51.pdf"
+scope="external">HPE Operations Orchestration 10.51</xref></li>
+</ul></li>
+</ul>
+<ul>
+<li><xref format="pdf"
+href="http://docs.hpcloud.com/pdf/static/HP_CloudSystem_9.0.1_OSRB.pdf"
+scope="external">HP Helion CloudSystem 9.0 Update 1</xref><ul>
+<li><xref format="pdf"
+href="http://docs.hpcloud.com/pdf/static/HDP_Thirdparty_OS_v2.pdf"
+scope="external">HP Helion Development Platform 1.3</xref></li>
+<li><xref format="pdf"
+href="http://docs.hpcloud.com/pdf/static/Helion_OS_OSRB_1.1.1.pdf"
+scope="external">HP Helion OpenStack 1.1.1</xref></li>
+<li><xref format="pdf"
+href="http://docs.hpcloud.com/pdf/static/HP_CSA_450_OSRB_Licensing.pdf"
+scope="external">HP Cloud Service Automation (CSA) 4.5</xref></li>
+<li><xref format="pdf"
+href="http://docs.hpcloud.com/pdf/static/OO_OpenSource_ThirdParty-10_20.pdf"
+scope="external">HP Operations Orchestration 10.20</xref></li>
+<li><xref format="pdf"
+href="https://my.vertica.com/docs/7.1.x/PDF/HP_Vertica_7.1.x_Third_Party.pdf"
+scope="external">HP Vertica Analytic Database</xref></li>
+<li><xref format="html"
+href="http://h20564.www2.hpe.com/hpsc/doc/public/display?docId=c04647291"
+scope="external">HP VAN SDN Controller and HPE Converged Control SDN
+Application</xref></li>
+<li>Codar 1.5: There are no additional license requirements for this
+product.</li>
+</ul></li>
+</ul>
 <p>Please allow sufficient time for the document to fully load. </p>
-  </body>
+</body>
 </topic>
