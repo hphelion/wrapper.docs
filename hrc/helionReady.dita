@@ -1173,6 +1173,23 @@
                 </entry>
                 <entry>Certified</entry>
               </row>
+              <row>
+                <entry>Networking</entry>
+                <entry>Midokura Midonet 5.2</entry>
+                <entry>3x</entry>
+                <entry>
+                 </entry>
+                <entry>Certified</entry>
+              </row>
+          
+           <row>
+                <entry>Networking</entry>
+                <entry>Cisco ACI 2.0</entry>
+                <entry>3x</entry>
+                <entry>
+                 </entry>
+                <entry>Certified</entry>
+              </row>
           
         </tbody>
       </tgroup>
