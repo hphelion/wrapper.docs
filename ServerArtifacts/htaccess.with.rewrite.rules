@@ -7,7 +7,7 @@ Options +FollowSymLinks
 RewriteEngine on
 
 
-RewriteRule ^permalink/stackato/4.0/root_topic.*$ http://docs-staging.hpcloud.com/stackato.docs-master/#stackato/hpe_helion_cloud_native_application_platform.html  [NE,R=301,L]
+RewriteRule ^permalink/stackato/4.0/root_topic.*$ http://docs-staging.hpcloud.com/stackato.docs-beta/#stackato/hpe_helion_stackato.html  [NE,R=301,L]
 #
 RewriteRule ^permalink/eucalyptus/most-current/release-notes.*$ http://docs.hpcloud.com/eucalyptus/4.3.0/#release-notes/4.3.0/4.3.0_index.html  [NE,R=301,L] 
 RewriteRule ^permalink/eucalyptus/most-current/installing_euca_release.*$ http://docs.hpcloud.com/eucalyptus/4.3.0/#install-guide/installing_euca_release.html [NE,R=301,L]
