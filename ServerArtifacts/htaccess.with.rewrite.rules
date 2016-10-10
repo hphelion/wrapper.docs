@@ -48,7 +48,6 @@ RewriteRule ^permalink/helion-openstack/3.0/opsconsole_logging.*$ http://docs.hp
 RewriteRule ^permalink/helion-openstack/3.0/opsconsole_my_dashboard_overview.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/en/my_dashboard_overview.html  [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/3.0/opsconsole_networking_summary.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/en/networking_summary.html [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/3.0/opsconsole_notification_methods.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/en/notification_methods.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/en/opsconsole_dashboard.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/en/opsconsole_dashboard.html [NE,R=301,L]
 
 # #### gui installer links untranslated 10.0 and 10.0.1
 RewriteRule ^permalink/helion-openstack/3.0/opsconsole_block_storage_alarm.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/block_storage_alarm.html  [NE,R=301,L]
