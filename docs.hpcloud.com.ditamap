@@ -18,8 +18,8 @@
   <!--permalink: -->
   <!--permalink: /-->
   <topicref href="home.dita"/>
-  <mapref href="3.x/docs.hpcloud.com.HOS.ditamap" navtitle="HPE Helion OpenStack 3.x"
-    format="ditamap"/>
+  <topicref href="hos.docs-gltest/index.html" navtitle="TEST" locktitle="yes">
+  <mapref href="hos.docs-gltest/index.html" navtitle="HPE Helion OpenStack 3.x" format="ditamap"/>
   <mapref href="docs.hpcloud.com.HOS.ditamap" navtitle="HPE Helion OpenStack 2.x" format="ditamap"/>
   <topicref navtitle="HPE Helion Ready Catalog" href="hrc/helionReady.dita" linking="normal"
     locktitle="yes"/>
