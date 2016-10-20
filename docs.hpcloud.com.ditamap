@@ -19,7 +19,7 @@
   <!--permalink: /-->
   <topicref href="home.dita"/>
   
-  <topicref  format="html" href="hos.docs-gltest/index.html" locktitle="yes" navtitle="test" scope="external"/>
+  <topicref  format="html" href="http://docs-staging.hpcloud.com:9095/hos.docs-gltest/index.html" locktitle="yes" navtitle="test" scope="external"/>
   
  
   <mapref href="hos.docs-gltest/index.html" navtitle="HPE Helion OpenStack 3.x" format="ditamap"/>
