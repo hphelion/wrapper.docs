@@ -22,7 +22,6 @@
   <topicref  format="html" href="hos.docs-gltest/index.html" locktitle="yes" navtitle="test" scope="external"/>
   
  
-    <xref href="http://blah.com" format="html" scope="external">
   <mapref href="hos.docs-gltest/index.html" navtitle="HPE Helion OpenStack 3.x" format="ditamap"/>
   <mapref href="docs.hpcloud.com.HOS.ditamap" navtitle="HPE Helion OpenStack 2.x" format="ditamap"/>
   <topicref navtitle="HPE Helion Ready Catalog" href="hrc/helionReady.dita" linking="normal"
