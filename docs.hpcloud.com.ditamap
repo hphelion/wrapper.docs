@@ -23,6 +23,7 @@
   <mapref href="docs.hpcloud.com.HOS.ditamap" navtitle="HPE Helion OpenStack 2.x" format="ditamap"/>
   <topicref navtitle="HPE Helion Ready Catalog" href="hrc/helionReady.dita" linking="normal"
     locktitle="yes"/>
+  <mapref href="stackato/docs.hpcloud.com.stackato.ditamap" format="ditamap"/>
   <mapref href="devplatform/docs.hpcloud.com.HDP.ditamap" format="ditamap"/>
   <mapref href="docs.hpcloud.com.CGH.20.ditamap" format="ditamap"/>
   <mapref href="docs.hpcloud.com.CGH.21.ditamap" format="ditamap"/>
