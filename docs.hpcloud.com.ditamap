@@ -24,7 +24,6 @@
   <topicref navtitle="HPE Helion Ready Catalog" href="hrc/helionReady.dita" linking="normal"
     locktitle="yes"/>
   <mapref href="stackato/docs.hpcloud.com.stackato.ditamap" format="ditamap"/>
-  <mapref href="devplatform/docs.hpcloud.com.HDP.ditamap" format="ditamap"/>
   <mapref href="docs.hpcloud.com.CGH.20.ditamap" format="ditamap"/>
   <mapref href="docs.hpcloud.com.CGH.21.ditamap" format="ditamap"/>
 
@@ -55,6 +54,7 @@
   <topicref href="codar-landing-page.dita" navtitle="HPE Codar"/>
   <topicref href="helion.rack.solution.dita" navtitle="HPE Helion Cloud Solutions" locktitle="yes"/>
   <topichead navtitle="Previous Versions">
+    <mapref href="devplatform/docs.hpcloud.com.HDP.ditamap" format="ditamap"/>
     <mapref href="devplatform/docs.hpcloud.com.HDP13.ditamap" format="ditamap"
       navtitle="HPE Helion Development Platform 1.3" locktitle="yes"/>
     <mapref href="docs.hpcloud.com.HDP1.2.ditamap" format="ditamap"
