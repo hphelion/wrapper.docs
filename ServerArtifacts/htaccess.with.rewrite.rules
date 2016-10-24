@@ -6,7 +6,7 @@ ErrorDocument 404 /404.html
 Options +FollowSymLinks
 RewriteEngine on
 
-RedirectMatch 301 https://docs.hpcloud.com/eucalyptus/4.3.0/(.*) https://docs.eucalyptus.com/eucalyptus/4.3.0/$1
+RewriteRule ^eucalyptus/4.3.0/(.*) https://docs.eucalyptus.com/eucalyptus/4.3.0/$1
 
 RewriteRule ^permalink/stackato/4.0/home.*$ http://docs-staging.hpcloud.com/stackato.docs-beta/#stackato/hpe_helion_stackato.html  [NE,R=301,L]
 #
