@@ -41,6 +41,13 @@
             format="pdf" scope="external">PDF Download</xref></stentry>
       </strow>
       <strow>
+        <stentry><xref href="stackato/stackato/hpe_helion_stackato.dita" format="ditamap"
+            scope="external">HPE Helion Stackato 4.0</xref></stentry>
+        <stentry>A cloud native platform that provides enterprises the right services, tools and
+          control to enable enterprise developers to accelerate their innovations.  </stentry>
+        <stentry/>
+      </strow>
+      <strow>
         <stentry>
           <xref href="devplatform/2.0/devplatform.index.dita">HPE Helion Development Platform</xref>
         </stentry>
