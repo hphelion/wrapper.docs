@@ -29,7 +29,7 @@
   
   <topicref navtitle="HPE Helion Ready Catalog" href="hrc/helionReady.dita" linking="normal" locktitle="yes"/>
   
-  <mapref href="./stackato/" navtitle="HPE Helion XX Stackato 4.0" format="html" scope="external"/>
+  <mapref href="./stackato/" navtitle="HPE Helion ZZ Stackato 4.0" format="html" scope="external"/>
   
   <mapref href="./cg-2.0/" navtitle="HP Helion OpenStack® Carrier Grade 2.0" format="html" scope="external"/>
   
