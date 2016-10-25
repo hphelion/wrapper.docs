@@ -27,7 +27,7 @@
   
   <mapref href="./hos-2.x/" navtitle="HPE Helion OpenStack 2.x" format="html" scope="external"/>
   
-  <mapref href="./stackato/" navtitle="HPE Helion ZZ Stackato 4.0" format="html" scope="external"/>
+  <mapref href="./stackato/#stackato/hpe_helion_stackato.html" navtitle="HPE Helion AA Stackato 4.0" format="html" scope="external"/>
   
   <topicref navtitle="HPE Helion Ready Catalog" href="hrc/helionReady.dita" linking="normal" locktitle="yes"/>
   
