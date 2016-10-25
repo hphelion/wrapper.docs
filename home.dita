@@ -39,7 +39,7 @@
             format="pdf" scope="external">PDF Download</xref></stentry>
       </strow>
       <strow>
-        <stentry><xref href="helion/index.dita">HPE Helion <tm tmtype="reg">OpenStack</tm> 2.1,
+        <stentry><xref href="./hos-2.x/" format="html" scope="external">HPE Helion <tm tmtype="reg">OpenStack</tm> 2.1,
             2.0</xref></stentry>
         <stentry>A commercial-grade software solution that enables customers to deploy private,
           managed, hybrid, and public cloud services based on OpenStack HPE Helion OpenStack reduces
@@ -66,8 +66,7 @@
       </strow>
       <strow>
         <stentry>
-          <xref href="CarrierGrade2.0/carrier-grade-index.dita#topic2685">HPE Helion <tm
-              tmtype="reg">OpenStack</tm> Carrier Grade</xref>
+          <xref href="./cg-2.1/"  format="html" scope="external" >OpenStack</tm> Carrier Grade</xref>
         </stentry>
         <stentry>A carrier-grade OpenStack solution plus compute and network functions
           virtualization (NFV) offering that enables CSPs to deploy applications on open source
