@@ -20,6 +20,15 @@
     <simpletable id="homepageTable" relcolwidth="1.0* 5.06* 1.0*">
       <strow>
         <stentry>
+          <xref href="4.x/helion/index.dita">HPE Helion <tm tmtype="reg">OpenStack</tm> 4.0</xref>
+        </stentry>
+        <stentry>A commercial-grade software solution that enables customers to deploy private,
+          managed, hybrid, and public cloud services based on OpenStack HPE Helion OpenStack reduces
+          complexity of cloud deployments.</stentry>
+        <stentry/>
+      </strow>
+      <strow>
+        <stentry>
           <xref href="3.x/helion/index.dita">HPE Helion <tm tmtype="reg">OpenStack</tm> 3.0</xref>
         </stentry>
         <stentry>A commercial-grade software solution that enables customers to deploy private,
@@ -44,7 +53,7 @@
         <stentry><xref href="stackato/stackato/hpe_helion_stackato.dita" format="ditamap"
             scope="external">HPE Helion Stackato 4.0</xref></stentry>
         <stentry>A cloud native platform that provides enterprises the right services, tools and
-          control to enable enterprise developers to accelerate their innovations.  </stentry>
+          control to enable enterprise developers to accelerate their innovations. </stentry>
         <stentry/>
       </strow>
       <strow>
