@@ -6,151 +6,152 @@ ErrorDocument 404 /404.html
 Options +FollowSymLinks
 RewriteEngine on
 
-RewriteRule ^eucalyptus/4.3.0/(.*) https://docs.eucalyptus.com/eucalyptus/4.3.0/$1
+
 
 RewriteRule ^permalink/stackato/4.0/home.*$ http://docs-staging.hpcloud.com/stackato.docs-beta/#stackato/hpe_helion_stackato.html  [NE,R=301,L]
-#
-RewriteRule ^permalink/eucalyptus/most-current/release-notes.*$ http://docs.hpcloud.com/eucalyptus/4.3.0/#release-notes/4.3.0/4.3.0_index.html  [NE,R=301,L] 
-RewriteRule ^permalink/eucalyptus/most-current/installing_euca_release.*$ http://docs.hpcloud.com/eucalyptus/4.3.0/#install-guide/installing_euca_release.html [NE,R=301,L]
-RewriteRule ^permalink/eucalyptus/most-current/install-guide.*$ http://docs.hpcloud.com/eucalyptus/4.3.0/#install-guide/index.html  [NE,R=301,L] 
-RewriteRule ^permalink/eucalyptus/most-current/installing-euca2ools.*$ http://docs.hpcloud.com/eucalyptus/4.3.0/#shared/installing_euca2ools.html  [NE,R=301,L] 
-RewriteRule ^permalink/eucalyptus/most-current/euca2ools-guide.*$ http://docs.hpcloud.com/eucalyptus/4.3.0/#euca2ools-guide/index.html  [NE,R=301,L] 
-RewriteRule ^permalink/eucalyptus/most-current/euca2ools-release-notes.*$ http://docs.hpcloud.com/eucalyptus/4.3.0/#euca2ools-release-notes/rn_index_3.3.1.html  [NE,R=301,L] 
-#
-RewriteRule ^permalink/helion-openstack/3.0/opsconsole_alarm_resolutions.*$ http://docs.hpcloud.com/#helion/operations/opsconsole/alarm_resolutions.html  [NE,R=301,L] 
-RewriteRule ^permalink/helion-openstack/3.0/alarmresolution.*$ http://docs.hpcloud.com/#3.x/helion/operations/alarm_resolutions.html [NE,R=301,L] 
 
-RewriteRule ^permalink/helion-openstack/3.0/3rd-party-license-agreements.*$ http://docs.hpcloud.com/#helion/3rd-party-license-agreements_21.html  [NE,R=301,L]
+# euca ruiles
+RewriteRule ^permalink/eucalyptus/most-current/release-notes.*$ http://docs.eucalyptus.com/eucalyptus/4.3.0/#release-notes/4.3.0/4.3.0_index.html  [NE,R=301,L] 
+RewriteRule ^permalink/eucalyptus/most-current/installing_euca_release.*$ http://docs.eucalyptus.com/eucalyptus/4.3.0/#install-guide/installing_euca_release.html [NE,R=301,L]
+RewriteRule ^permalink/eucalyptus/most-current/install-guide.*$ http://docs.eucalyptus.com/eucalyptus/4.3.0/#install-guide/index.html  [NE,R=301,L] 
+RewriteRule ^permalink/eucalyptus/most-current/installing-euca2ools.*$ http://docs.eucalyptus.com/eucalyptus/4.3.0/#shared/installing_euca2ools.html  [NE,R=301,L] 
+RewriteRule ^permalink/eucalyptus/most-current/euca2ools-guide.*$ http://docs.eucalyptus.com/eucalyptus/4.3.0/#euca2ools-guide/index.html  [NE,R=301,L] 
+RewriteRule ^permalink/eucalyptus/most-current/euca2ools-release-notes.*$ http://docs.eucalyptus.com/eucalyptus/4.3.0/#euca2ools-release-notes/rn_index_3.3.1.html  [NE,R=301,L]
+RewriteRule ^eucalyptus/4.3.0/(.*) https://docs.eucalyptus.com/eucalyptus/4.3.0/$1
+
 #
-RewriteRule ^permalink/helion-openstack/3.0/overview.*$ http://docs.hpcloud.com/#helion/overview.html  [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/opsconsole_alarm_resolutions.*$ https://docs.hpcloud.com/hos-3.x/index.html#helion/operations/opsconsole/alarm_resolutions.html  [NE,R=301,L] 
+RewriteRule ^permalink/helion-openstack/3.0/alarmresolution.*$ https://docs.hpcloud.com/hos-3.x/index.html#helion/operations/alarm_resolutions.html [NE,R=301,L] 
+
+RewriteRule ^permalink/helion-openstack/3.0/3rd-party-license-agreements.*$ https://docs.hpcloud.com/hos-3.x/index.html#helion/3rd-party-license-agreements_21.html  [NE,R=301,L]
+#
+RewriteRule ^permalink/helion-openstack/3.0/overview.*$ https://docs.hpcloud.com/hos-3.x/#helion/overview.html  [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/third-party-licenses.*$ http://docs.hpcloud.com/pdf/static/licenses/helion-openstack  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/install_entryscale_esx.*$ http://docs.hpcloud.com/#helion/installation/install_entryscale_esx.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/landing-page.*$ http://docs.hpcloud.com/#helion/index.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/administration/configure_monitoring.html.*$ http://docs.hpcloud.com/#helion/operations/opsconsole_overview.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/blockstorage_ceph_ceph_overview.*$ http://docs.hpcloud.com/hos2.0ga/#helion/blockstorage/ceph/ceph_overview.html  [NE,R=301,L]
-
+## Can't find this ## RewriteRule ^permalink/helion-openstack/3.0/install_entryscale_esx.*$ https://docs.hpcloud.com/hos-3.x/#helion/installation/install_entryscale_esx.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/landing-page.*$ https://docs.hpcloud.com/hos-3.x/#helion/index.html  [NE,R=301,L]
+## Can't find this ## RewriteRule ^permalink/helion-openstack/3.0/administration/configure_monitoring.html.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole_overview.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/blockstorage_ceph_ceph_overview.*$ https://docs.hpcloud.com/hos-3.x/#helion/blockstorage/ceph/ceph_overview.html  [NE,R=301,L]
+https://docs.hpcloud.com/hos-3.x/#helion
 # #### gui installer links CS 10.0
-RewriteRule ^permalink/helion-openstack/3.0/opsconsole_dashboard.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/en/opsconsole_dashboard.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/opsconsole_alarm_definitions.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/en/alarm_definitions.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/opsconsole_alarm_explorer.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/en/alarm_explorer.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/opsconsole_compute_hosts.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/en/compute_hosts.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/opsconsole_compute_instances.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/en/compute_instances.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/opsconsole_compute_summary.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/en/compute_summary.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/cs_opsconsole_appliances.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/en/cs_opsconsole_appliances.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/cs_opsconsole_backup_restore.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/en/cs_opsconsole_backup_restore.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/cs_opsconsole_block_storage_devices.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/en/cs_opsconsole_block_storage_devices.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/cs_opsconsole_block_storage_summary.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/en/cs_opsconsole_block_storage_summary.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/cs_opsconsole_compute_summary_summary.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/en/cs_opsconsole_compute_summary_summary.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/cs_opsconsole_hardware_baremetal.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/en/cs_opsconsole_hardware_baremetal.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/cs_opsconsole_hardware_oneview.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/en/cs_opsconsole_hardware_oneview.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/cs_opsconsole_system_networking.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/en/cs_opsconsole_system_networking.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/cs_opsconsole_integrated_tools.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/en/cs_opsconsole_integrated_tools.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/opsconsole_logging.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/en/logging.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/opsconsole_my_dashboard_overview.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/en/my_dashboard_overview.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/opsconsole_networking_summary.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/en/networking_summary.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/opsconsole_notification_methods.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/en/notification_methods.html [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/opsconsole_dashboard.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/opsconsole_dashboard.html [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/opsconsole_alarm_definitions.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/alarm_definitions.html [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/opsconsole_alarm_explorer.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/alarm_explorer.html [NE,R=301,L]
+	ewriteRule ^permalink/helion-openstack/3.0/opsconsole_compute_hosts.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/compute_hosts.html [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/opsconsole_compute_instances.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/compute_instances.html [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/opsconsole_compute_summary.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/compute_summary.html [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/cs_opsconsole_appliances.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/cs_opsconsole_appliances.html  [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/cs_opsconsole_backup_restore.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/cs_opsconsole_backup_restore.html  [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/cs_opsconsole_block_storage_devices.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/cs_opsconsole_block_storage_devices.html  [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/cs_opsconsole_block_storage_summary.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/cs_opsconsole_block_storage_summary.html  [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/cs_opsconsole_compute_summary_summary.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/cs_opsconsole_compute_summary_summary.html  [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/cs_opsconsole_hardware_baremetal.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/cs_opsconsole_hardware_baremetal.html  [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/cs_opsconsole_hardware_oneview.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/cs_opsconsole_hardware_oneview.html  [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/cs_opsconsole_system_networking.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/cs_opsconsole_system_networking.html  [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/cs_opsconsole_integrated_tools.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/cs_opsconsole_integrated_tools.html  [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/opsconsole_logging.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/logging.html [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/opsconsole_my_dashboard_overview.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/my_dashboard_overview.html  [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/opsconsole_networking_summary.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/networking_summary.html [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/opsconsole_notification_methods.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/notification_methods.html [NE,R=301,L]
 
 # #### gui installer links untranslated 10.0 and 10.0.1
-RewriteRule ^permalink/helion-openstack/3.0/opsconsole_block_storage_alarm.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/block_storage_alarm.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/opsconsole_perf_storage.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/perf_storage.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/opsconsole_invent_storage.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/invent_storage.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/opsconsole_cap_storage.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/cap_storage.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/opsconsole_alarmsum_storage.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/storage_summary.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/opsconsole_code_enghost.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/code_enghost.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/opsconsole_overview.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole_overview.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/opsconsole_metric_monitoring.*$ http://docs.hpcloud.com/#helion/operations/opsconsole/metric_monitoring.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/opsconsole_storage_summary.*$ http://docs.hpcloud.com/#helion/operations/opsconsole/storage_summary.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/opsconsole_hdp_summary.*$ http://docs.hpcloud.com/#helion/operations/opsconsole/hdp_summary.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/opsconsole_alarmresolution.*$ http://docs.hpcloud.com/#3.x/helion/operations/alarm_resolutions.html [NE,R=301,L]   
+	RewriteRule ^permalink/helion-openstack/3.0/opsconsole_block_storage_alarm.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/block_storage_alarm.html  [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/opsconsole_perf_storage.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/perf_storage.html [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/opsconsole_invent_storage.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/invent_storage.html [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/opsconsole_cap_storage.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/cap_storage.html [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/opsconsole_alarmsum_storage.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/storage_summary.html [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/opsconsole_code_enghost.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/code_enghost.html [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/opsconsole_overview.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole_overview.html [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/opsconsole_metric_monitoring.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/metric_monitoring.html [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/opsconsole_storage_summary.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/storage_summary.html [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/opsconsole_hdp_summary.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/hdp_summary.html [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/opsconsole_alarmresolution.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/alarm_resolutions.html [NE,R=301,L]   
 
 
 # #### ops console gui installer links translated to english CS 10.0.1
-RewriteRule ^permalink/helion-openstack/3.0/en/opsconsole_alarm_definitions.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/en/alarm_definitions.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/en/opsconsole_alarm_explorer.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/en/alarm_explorer.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/en/opsconsole_compute_hosts.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/en/compute_hosts.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/en/opsconsole_compute_instances.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/en/compute_instances.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/en/opsconsole_compute_summary.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/en/compute_summary.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/en/cs_opsconsole_appliances.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/en/cs_opsconsole_appliances.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/en/cs_opsconsole_backup_restore.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/en/cs_opsconsole_backup_restore.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/en/cs_opsconsole_block_storage_devices.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/en/cs_opsconsole_block_storage_devices.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/en/cs_opsconsole_block_storage_summary.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/en/cs_opsconsole_block_storage_summary.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/en/cs_opsconsole_compute_summary_summary.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/en/cs_opsconsole_compute_summary_summary.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/en/cs_opsconsole_hardware_baremetal.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/en/cs_opsconsole_hardware_baremetal.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/en/cs_opsconsole_hardware_oneview.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/en/cs_opsconsole_hardware_oneview.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/en/cs_opsconsole_system_networking.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/en/cs_opsconsole_system_networking.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/en/cs_opsconsole_integrated_tools.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/en/cs_opsconsole_integrated_tools.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/en/opsconsole_logging.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/en/logging.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/en/opsconsole_my_dashboard_overview.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/en/my_dashboard_overview.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/en/opsconsole_networking_summary.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/en/networking_summary.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/en/opsconsole_notification_methods.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/en/notification_methods.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/en/opsconsole_dashboard.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/en/opsconsole_dashboard.html [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/en/opsconsole_alarm_definitions.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/alarm_definitions.html [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/en/opsconsole_alarm_explorer.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/alarm_explorer.html [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/en/opsconsole_compute_hosts.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/compute_hosts.html [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/en/opsconsole_compute_instances.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/compute_instances.html [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/en/opsconsole_compute_summary.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/compute_summary.html [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/en/cs_opsconsole_appliances.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/cs_opsconsole_appliances.html  [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/en/cs_opsconsole_backup_restore.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/cs_opsconsole_backup_restore.html  [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/en/cs_opsconsole_block_storage_devices.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/cs_opsconsole_block_storage_devices.html  [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/en/cs_opsconsole_block_storage_summary.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/cs_opsconsole_block_storage_summary.html  [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/en/cs_opsconsole_compute_summary_summary.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/cs_opsconsole_compute_summary_summary.html  [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/en/cs_opsconsole_hardware_baremetal.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/cs_opsconsole_hardware_baremetal.html  [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/en/cs_opsconsole_hardware_oneview.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/cs_opsconsole_hardware_oneview.html  [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/en/cs_opsconsole_system_networking.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/cs_opsconsole_system_networking.html  [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/en/cs_opsconsole_integrated_tools.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/cs_opsconsole_integrated_tools.html  [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/en/opsconsole_logging.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/logging.html [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/en/opsconsole_my_dashboard_overview.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/my_dashboard_overview.html  [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/en/opsconsole_networking_summary.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/networking_summary.html [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/en/opsconsole_notification_methods.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/notification_methods.html [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/en/opsconsole_dashboard.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/opsconsole_dashboard.html [NE,R=301,L]
 
 # #### ops console gui installer links translated to japanese CS 10.0.1
-RewriteRule ^permalink/helion-openstack/3.0/ja/opsconsole_alarm_definitions.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/ja/alarm_definitions.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/ja/opsconsole_alarm_explorer.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/ja/alarm_explorer.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/ja/opsconsole_compute_hosts.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/ja/compute_hosts.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/ja/opsconsole_compute_instances.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/ja/compute_instances.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/ja/opsconsole_compute_summary.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/ja/compute_summary.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/ja/cs_opsconsole_appliances.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/ja/cs_opsconsole_appliances.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/ja/cs_opsconsole_backup_restore.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/ja/cs_opsconsole_backup_restore.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/ja/cs_opsconsole_block_storage_devices.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/ja/cs_opsconsole_block_storage_devices.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/ja/cs_opsconsole_block_storage_summary.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/ja/cs_opsconsole_block_storage_summary.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/ja/cs_opsconsole_compute_summary_summary.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/ja/cs_opsconsole_compute_summary_summary.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/ja/cs_opsconsole_hardware_baremetal.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/ja/cs_opsconsole_hardware_baremetal.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/ja/cs_opsconsole_hardware_oneview.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/ja/cs_opsconsole_hardware_oneview.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/ja/cs_opsconsole_system_networking.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/ja/cs_opsconsole_system_networking.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/ja/cs_opsconsole_integrated_tools.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/ja/cs_opsconsole_integrated_tools.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/ja/opsconsole_logging.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/ja/logging.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/ja/opsconsole_my_dashboard_overview.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/ja/my_dashboard_overview.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/ja/opsconsole_networking_summary.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/ja/networking_summary.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/ja/opsconsole_notification_methods.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/ja/notification_methods.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/ja/opsconsole_dashboard.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/ja/opsconsole_dashboard.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/ja/opsconsole_alarm_definitions.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/ja/alarm_definitions.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/ja/opsconsole_alarm_explorer.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/ja/alarm_explorer.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/ja/opsconsole_compute_hosts.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/ja/compute_hosts.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/ja/opsconsole_compute_instances.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/ja/compute_instances.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/ja/opsconsole_compute_summary.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/ja/compute_summary.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/ja/cs_opsconsole_appliances.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/ja/cs_opsconsole_appliances.html  [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/ja/cs_opsconsole_backup_restore.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/ja/cs_opsconsole_backup_restore.html  [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/ja/cs_opsconsole_block_storage_devices.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/ja/cs_opsconsole_block_storage_devices.html  [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/ja/cs_opsconsole_block_storage_summary.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/ja/cs_opsconsole_block_storage_summary.html  [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/ja/cs_opsconsole_compute_summary_summary.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/ja/cs_opsconsole_compute_summary_summary.html  [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/ja/cs_opsconsole_hardware_baremetal.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/ja/cs_opsconsole_hardware_baremetal.html  [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/ja/cs_opsconsole_hardware_oneview.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/ja/cs_opsconsole_hardware_oneview.html  [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/ja/cs_opsconsole_system_networking.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/ja/cs_opsconsole_system_networking.html  [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/ja/cs_opsconsole_integrated_tools.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/ja/cs_opsconsole_integrated_tools.html  [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/ja/opsconsole_logging.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/ja/logging.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/ja/opsconsole_my_dashboard_overview.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/ja/my_dashboard_overview.html  [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/ja/opsconsole_networking_summary.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/ja/networking_summary.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/ja/opsconsole_notification_methods.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/ja/notification_methods.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/ja/opsconsole_dashboard.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/ja/opsconsole_dashboard.html [NE,R=301,L]
 
 # #### ops console gui installer links translated to chinese CS 10.0.1
-RewriteRule ^permalink/helion-openstack/3.0/zh-cn/opsconsole_alarm_definitions.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/zh/alarm_definitions.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/zh-cn/opsconsole_alarm_explorer.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/zh/alarm_explorer.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/zh-cn/opsconsole_compute_hosts.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/zh/compute_hosts.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/zh-cn/opsconsole_compute_instances.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/zh/compute_instances.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/zh-cn/opsconsole_compute_summary.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/zh/compute_summary.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/zh-cn/cs_opsconsole_appliances.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/zh/cs_opsconsole_appliances.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/zh-cn/cs_opsconsole_backup_restore.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/zh/cs_opsconsole_backup_restore.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/zh-cn/cs_opsconsole_block_storage_devices.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/zh/cs_opsconsole_block_storage_devices.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/zh-cn/cs_opsconsole_block_storage_summary.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/zh/cs_opsconsole_block_storage_summary.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/zh-cn/cs_opsconsole_compute_summary_summary.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/zh/cs_opsconsole_compute_summary_summary.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/zh-cn/cs_opsconsole_hardware_baremetal.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/zh/cs_opsconsole_hardware_baremetal.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/zh-cn/cs_opsconsole_hardware_oneview.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/zh/cs_opsconsole_hardware_oneview.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/zh-cn/cs_opsconsole_system_networking.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/zh/cs_opsconsole_system_networking.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/zh-cn/cs_opsconsole_integrated_tools.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/zh/cs_opsconsole_integrated_tools.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/zh-cn/opsconsole_logging.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/zh/logging.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/zh-cn/opsconsole_my_dashboard_overview.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/zh/my_dashboard_overview.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/zh-cn/opsconsole_networking_summary.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/zh/networking_summary.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/zh-cn/opsconsole_notification_methods.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/zh/notification_methods.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/zh-cn/opsconsole_dashboard.*$ http://docs.hpcloud.com/#3.x/helion/operations/opsconsole/zh/opsconsole_dashboard.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/zh-cn/opsconsole_alarm_definitions.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/zh/alarm_definitions.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/zh-cn/opsconsole_alarm_explorer.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/zh/alarm_explorer.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/zh-cn/opsconsole_compute_hosts.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/zh/compute_hosts.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/zh-cn/opsconsole_compute_instances.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/zh/compute_instances.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/zh-cn/opsconsole_compute_summary.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/zh/compute_summary.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/zh-cn/cs_opsconsole_appliances.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/zh/cs_opsconsole_appliances.html  [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/zh-cn/cs_opsconsole_backup_restore.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/zh/cs_opsconsole_backup_restore.html  [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/zh-cn/cs_opsconsole_block_storage_devices.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/zh/cs_opsconsole_block_storage_devices.html  [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/zh-cn/cs_opsconsole_block_storage_summary.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/zh/cs_opsconsole_block_storage_summary.html  [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/zh-cn/cs_opsconsole_compute_summary_summary.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/zh/cs_opsconsole_compute_summary_summary.html  [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/zh-cn/cs_opsconsole_hardware_baremetal.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/zh/cs_opsconsole_hardware_baremetal.html  [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/zh-cn/cs_opsconsole_hardware_oneview.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/zh/cs_opsconsole_hardware_oneview.html  [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/zh-cn/cs_opsconsole_system_networking.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/zh/cs_opsconsole_system_networking.html  [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/zh-cn/cs_opsconsole_integrated_tools.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/zh/cs_opsconsole_integrated_tools.html  [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/zh-cn/opsconsole_logging.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/zh/logging.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/zh-cn/opsconsole_my_dashboard_overview.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/zh/my_dashboard_overview.html  [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/zh-cn/opsconsole_networking_summary.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/zh/networking_summary.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/zh-cn/opsconsole_notification_methods.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/zh/notification_methods.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/zh-cn/opsconsole_dashboard.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/zh/opsconsole_dashboard.html [NE,R=301,L]
 
 
-RewriteRule ^permalink/helion-openstack/3.0/HOS_Landing.*$ http://docs.hpcloud.com/#3.x/helion/index.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/HOS_Landing.*$ https://docs.hpcloud.com/hos-3.x/#helion/index.html [NE,R=301,L]
 RewriteRule ^helion/devplatform/2.0/als/client/download.*$ http://docs.hpcloud.com/#devplatform/2.0/helion/CLI/ALS_Client_Downloads.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/identity/identity_ldap.*$ http://docs.hpcloud.com/#3.x/helion/operations/configuring/identity/identity_ldap.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/monasca.*$ http://docs.hpcloud.com/#3.x/helion/operations/monitoring_service.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/bare_installation_esx.*$ http://docs.hpcloud.com/#3.x/helion/installation/install_esx_overview.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/cinder_vsa.*$ http://docs.hpcloud.com/#3.x/helion/installation/configure_vsa.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/installation_troubleshooting.*$ http://docs.hpcloud.com/#3.x/helion/installation/installation_troubleshooting.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/helion/input_model.*$ http://docs.hpcloud.com/#3.x/helion/architecture/input_model/input_model.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/supportedconfigs.*$ http://docs.hpcloud.com/#3.x/helion/architecture/example_configurations.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/installation/configure_ceph.*$ http://docs.hpcloud.com/#3.x/helion/installation/configure_ceph.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/hardware.*$ http://docs.hpcloud.com/#3.x/helion/hardware.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/eula.*$ http://docs.hpcloud.com/#3.x/helion/eula_30.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/3.0/gui_installer.*$ http://docs.hpcloud.com/#3.x/helion/installation/gui_installer.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/identity/identity_ldap.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/configuring/identity/identity_ldap.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/monasca.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/monitoring_service.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/bare_installation_esx.*$ https://docs.hpcloud.com/hos-3.x/#helion/installation/install_esx_overview.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/cinder_vsa.*$ https://docs.hpcloud.com/hos-3.x/#helion/installation/configure_vsa.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/installation_troubleshooting.*$ https://docs.hpcloud.com/hos-3.x/#helion/installation/installation_troubleshooting.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/helion/input_model.*$ https://docs.hpcloud.com/hos-3.x/#helion/architecture/input_model/input_model.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/supportedconfigs.*$ https://docs.hpcloud.com/hos-3.x/#helion/architecture/example_configurations.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/installation/configure_ceph.*$ https://docs.hpcloud.com/hos-3.x/#helion/installation/configure_ceph.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/hardware.*$ https://docs.hpcloud.com/hos-3.x/#helion/hardware.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/eula.*$ https://docs.hpcloud.com/hos-3.x/#helion/eula_30.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/3.0/gui_installer.*$ https://docs.hpcloud.com/hos-3.x/#helion/installation/gui_installer.html [NE,R=301,L]
 # #### end gui installer links
-RedirectMatch 301 /eucalyptus/4.2.0(.*) /eucalyptus/4.2.1$1
-RedirectMatch 301 /eucalyptus/4.1.2/(.*) /pdf/static/Eucalyptus_4.1/$1
-RedirectMatch 301 /eucalyptus/4.0.2/(.*) /pdf/static/Eucalyptus_4.0/$1
-RedirectMatch 301 /eucalyptus/3.4.2/(.*) /pdf/static/Eucalyptus_3.4/$1
-RedirectMatch 301 /eucalyptus/3.3.2/(.*) /pdf/static/Eucalyptus_3.3/$1
-RedirectMatch 301 /eucalyptus/3.2.2/(.*) /pdf/static/Eucalyptus_3.2/$1
-RedirectMatch 301 /eucalyptus/3.1.2/(.*) /pdf/static/Eucalyptus_3.1/$1
-RedirectMatch 301 /eucalyptus/3.0/(.*)   /pdf/static/Eucalyptus_3.0/$1
-RedirectMatch 301 /eucalyptus/2.0/(.*)   /pdf/static/Eucalyptus_2.0/$1
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 RewriteRule ^devplatform/1.2/1.2devplatform.ALS-developer-trial-quick-start.*.html /devplatform/1.3/devplatform.ALS-developer-trial-quick-start.html [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/2.0/install_entryscale_esx.*$ http://docs.hpcloud.com/#helion/installation/install_entryscale_esx.html [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/2.1/3rd-party-license-agreements.*$  http://docs.hpcloud.com/#helion/3rd-party-license-agreements_21.html [NE,R=301,L]
@@ -181,6 +182,20 @@ RewriteRule ^permalink/helion-openstack/2.0/opsconsole_compute_instances.*$ http
 RewriteRule ^permalink/helion-openstack/2.0/opsconsole_networking_summary.*$ http://docs.hpcloud.com/#helion/operations/opsconsole/networking_summary.html [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/2.0/opsconsole_storage_summary.*$ http://docs.hpcloud.com/#helion/operations/opsconsole/storage_summary.html [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/2.0/opsconsole_hdp_summary.*$ http://docs.hpcloud.com/#helion/operations/opsconsole/hdp_summary.html [NE,R=301,L]
+
+#Catch-all redirects for move to split product build
+RedirectMatch 301 /#3.x/helion/(.*) /hos-3.x/#helion/$1
+RedirectMatch 301 /#helion/(.*) /hos-2.x/#helion/$1
+RedirectMatch 301 /#CarrierGrade2.0/(.*) /cg-2.0/#CarrierGrade2.0/$1
+RedirectMatch 301 /#CarrierGrade2.1/(.*) /cg-2.1/#CarrierGrade2.1/$1
+RedirectMatch 301 /#CarrierGrade/(.*) /cg-1.1/#CarrierGrade/$1
+RedirectMatch 301 /#devplatform/1.3/(.*) /devplat-1.3/#1.3/$1
+RedirectMatch 301 /#devplatform/1.2/(.*) /devplat-1.2/#devplatform/1.2/$1
+RedirectMatch 301 /#devplatform/(.*) /devplat-1.1/#devplatform/$1
+RedirectMatch 301 /#commercial/(.*) /hos-1.1x/#commercial/$1
+
+
+
 RewriteRule ^helion/HCSPProgramGuide.*$ http://gaf2871b9d2d13cf45c1306b35bf01764.cdn.hpcloudsvc.com/HCSP_Program_Guide_12_15_15.pdf [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/2.0/hardware.*$ http://docs.hpcloud.com/#helion/hardware.html [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/2.0/monasca_opsconsole_overview.*$ http://docs.hpcloud.com/#helion/operations/opsconsole/overview.html [NE,R=301,L]
