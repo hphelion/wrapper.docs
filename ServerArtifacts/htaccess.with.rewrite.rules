@@ -186,11 +186,11 @@ RewriteRule ^permalink/helion-openstack/2.0/opsconsole_hdp_summary.*$ http://doc
 #Catch-all redirects for move to split product build
 RewriteRule ^/#3.x/helion/(.*) /hos-3.x/#helion/$1  [NE,R=301,L]
 
-RewriteRule ^/#helion/(.*) /hos-2.x/#helion/$1  [NE,R=301,L]
+RewriteRule ^/#helion/(.*) http://docs.hpcloud.com/hos-2.x/#helion/$1  [NE,R=301,L]
 
-RewriteRule ^/#CarrierGrade2.0/(.*) /cg-2.0/#CarrierGrade2.0/$1  [NE,R=301,L]
+RedirectMatch 301 ^/#CarrierGrade2.0/(.*) http://docs.hpcloud.com/cg-2.0/#CarrierGrade2.0/$1  [NE,R=301,L]
 
-RewriteRule ^/#CarrierGrade2.1/(.*) /cg-2.1/#CarrierGrade2.1/$1  [NE,R=301,L]
+RedirectMatch 301 /#CarrierGrade2.1/(.*) http://docs.hpcloud.com/cg-2.1/#CarrierGrade2.1/$1  [NE,R=301,L]
 
 RewriteRule ^/#CarrierGrade/(.*) /cg-1.1/#CarrierGrade/$1  [NE,R=301,L]
 
