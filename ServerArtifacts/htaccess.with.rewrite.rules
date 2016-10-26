@@ -31,7 +31,7 @@ RewriteRule ^permalink/helion-openstack/third-party-licenses.*$ http://docs.hpcl
 RewriteRule ^permalink/helion-openstack/3.0/landing-page.*$ https://docs.hpcloud.com/hos-3.x/#helion/index.html  [NE,R=301,L]
 ## Can't find this ## RewriteRule ^permalink/helion-openstack/3.0/administration/configure_monitoring.html.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole_overview.html [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/3.0/blockstorage_ceph_ceph_overview.*$ https://docs.hpcloud.com/hos-3.x/#helion/blockstorage/ceph/ceph_overview.html  [NE,R=301,L]
-https://docs.hpcloud.com/hos-3.x/#helion
+ 
 # #### gui installer links CS 10.0
 	RewriteRule ^permalink/helion-openstack/3.0/opsconsole_dashboard.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/opsconsole_dashboard.html [NE,R=301,L]
 	RewriteRule ^permalink/helion-openstack/3.0/opsconsole_alarm_definitions.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/alarm_definitions.html [NE,R=301,L]
