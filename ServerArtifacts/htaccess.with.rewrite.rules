@@ -36,7 +36,7 @@ RewriteRule ^permalink/helion-openstack/3.0/blockstorage_ceph_ceph_overview.*$ h
 	RewriteRule ^permalink/helion-openstack/3.0/opsconsole_dashboard.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/opsconsole_dashboard.html [NE,R=301,L]
 	RewriteRule ^permalink/helion-openstack/3.0/opsconsole_alarm_definitions.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/alarm_definitions.html [NE,R=301,L]
 	RewriteRule ^permalink/helion-openstack/3.0/opsconsole_alarm_explorer.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/alarm_explorer.html [NE,R=301,L]
-	ewriteRule ^permalink/helion-openstack/3.0/opsconsole_compute_hosts.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/compute_hosts.html [NE,R=301,L]
+	RewriteRule ^permalink/helion-openstack/3.0/opsconsole_compute_hosts.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/compute_hosts.html [NE,R=301,L]
 	RewriteRule ^permalink/helion-openstack/3.0/opsconsole_compute_instances.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/compute_instances.html [NE,R=301,L]
 	RewriteRule ^permalink/helion-openstack/3.0/opsconsole_compute_summary.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/compute_summary.html [NE,R=301,L]
 	RewriteRule ^permalink/helion-openstack/3.0/cs_opsconsole_appliances.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/opsconsole/en/cs_opsconsole_appliances.html  [NE,R=301,L]
