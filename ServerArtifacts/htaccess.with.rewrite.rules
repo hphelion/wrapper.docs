@@ -183,28 +183,7 @@ RewriteRule ^permalink/helion-openstack/2.0/opsconsole_networking_summary.*$ htt
 RewriteRule ^permalink/helion-openstack/2.0/opsconsole_storage_summary.*$ http://docs.hpcloud.com/#helion/operations/opsconsole/storage_summary.html [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/2.0/opsconsole_hdp_summary.*$ http://docs.hpcloud.com/#helion/operations/opsconsole/hdp_summary.html [NE,R=301,L]
 
-#Catch-all redirects for move to split product build
-
-RewriteRule ^(.*)3.x/helion/(.*)$ https://docs.hpcloud.com/hos-3.x/helion/$1  [NE,R=301,L]
-
-#RewriteRule ^/#helion/(.*) http://docs.hpcloud.com/hos-2.x/#helion/$1  [NE,R=301,L]
-
-#RedirectMatch 301 ^/#CarrierGrade2.0/(.*) http://docs.hpcloud.com/cg-2.0/#CarrierGrade2.0/$1  [NE,R=301,L]
-
-#RedirectMatch 301 /#CarrierGrade2.1/(.*) http://docs.hpcloud.com/cg-2.1/#CarrierGrade2.1/$1  [NE,R=301,L]
-
-#RewriteRule ^/#CarrierGrade/(.*) /cg-1.1/#CarrierGrade/$1  [NE,R=301,L]
-
-#RewriteRule ^/#devplatform/1.3/(.*) /devplat-1.3/#1.3/$1  [NE,R=301,L]
-
-#RewriteRule ^/#devplatform/1.2/(.*) /devplat-1.2/#devplatform/1.2/$1  [NE,R=301,L]
-
-#RewriteRule ^/#devplatform/(.*) /devplat-1.1/#devplatform/$1  [NE,R=301,L]
-
-#RewriteRule ^/#commercial/(.*) /hos-1.1x/#commercial/$1  [NE,R=301,L]
-
-
-
+  
 
 RewriteRule ^helion/HCSPProgramGuide.*$ http://gaf2871b9d2d13cf45c1306b35bf01764.cdn.hpcloudsvc.com/HCSP_Program_Guide_12_15_15.pdf [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/2.0/hardware.*$ http://docs.hpcloud.com/#helion/hardware.html [NE,R=301,L]
