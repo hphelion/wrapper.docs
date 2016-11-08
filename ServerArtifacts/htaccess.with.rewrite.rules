@@ -159,7 +159,7 @@ RewriteRule ^permalink/helion-openstack/4.0/cs_opsconsole_appliances.*$ https://
 RewriteRule ^permalink/helion-openstack/4.0/cs_opsconsole_backup_restore.*$ https://docs.hpcloud.com/hos-4.x/#helion/operations/opsconsole/en/cs_opsconsole_backup_restore.html  [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/4.0/cs_opsconsole_block_storage_devices.*$ https://docs.hpcloud.com/hos-4.x/#helion/operations/opsconsole/en/cs_opsconsole_block_storage_devices.html  [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/4.0/cs_opsconsole_block_storage_summary.*$ https://docs.hpcloud.com/hos-4.x/#helion/operations/opsconsole/en/cs_opsconsole_block_storage_summary.html  [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/4.0/cs_opsconsole_compute_summary_summary.*$ https://docs.hpcloud.com/hos-4.x/#helion/operations/opsconsole/en/cs_opsconsole_compute_summary_summary.html  [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/4.0/cs_opsconsole_compute_storage_summary.*$ https://docs.hpcloud.com/hos-4.x/#helion/operations/opsconsole/en/cs_opsconsole_compute_storage_summary.html  [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/4.0/cs_opsconsole_hardware_baremetal.*$ https://docs.hpcloud.com/hos-4.x/#helion/operations/opsconsole/en/cs_opsconsole_hardware_baremetal.html  [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/4.0/cs_opsconsole_hardware_oneview.*$ https://docs.hpcloud.com/hos-4.x/#helion/operations/opsconsole/en/cs_opsconsole_hardware_oneview.html  [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/4.0/cs_opsconsole_system_networking.*$ https://docs.hpcloud.com/hos-4.x/#helion/operations/opsconsole/en/cs_opsconsole_system_networking.html  [NE,R=301,L]
