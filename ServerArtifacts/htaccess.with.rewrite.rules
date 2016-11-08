@@ -154,7 +154,7 @@ RewriteRule ^permalink/helion-openstack/4.0/opsconsole_alarm_definitions.*$ http
 RewriteRule ^permalink/helion-openstack/4.0/opsconsole_alarm_explorer.*$ https://docs.hpcloud.com/hos-4.x/#helion/operations/opsconsole/en/alarm_explorer.html [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/4.0/opsconsole_compute_hosts.*$ https://docs.hpcloud.com/hos-4.x/#helion/operations/opsconsole/en/compute_hosts.html [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/4.0/opsconsole_compute_instances.*$ https://docs.hpcloud.com/hos-4.x/#helion/operations/opsconsole/en/compute_instances.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/4.0/opsconsole_compute_summary.*$ https://docs.hpcloud.com/hos-4.x/#helion/operations/opsconsole/en/compute_summary.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/4.0/opsconsole_compute_summary.*$ https://docs.hpcloud.com/hos-4.x/#helion/operations/opsconsole/en/cs_opsconsole_compute_storage_summary.html [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/4.0/cs_opsconsole_appliances.*$ https://docs.hpcloud.com/hos-4.x/#helion/operations/opsconsole/en/cs_opsconsole_appliances.html  [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/4.0/cs_opsconsole_backup_restore.*$ https://docs.hpcloud.com/hos-4.x/#helion/operations/opsconsole/en/cs_opsconsole_backup_restore.html  [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/4.0/cs_opsconsole_block_storage_devices.*$ https://docs.hpcloud.com/hos-4.x/#helion/operations/opsconsole/en/cs_opsconsole_block_storage_devices.html  [NE,R=301,L]
