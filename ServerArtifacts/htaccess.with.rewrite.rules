@@ -180,7 +180,9 @@ RewriteRule ^permalink/helion-openstack/4.0/opsconsole_overview.*$ https://docs.
 RewriteRule ^permalink/helion-openstack/4.0/opsconsole_metric_monitoring.*$ https://docs.hpcloud.com/hos-4.x/#helion/operations/opsconsole/metric_monitoring.html [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/4.0/opsconsole_storage_summary.*$ https://docs.hpcloud.com/hos-4.x/#helion/operations/opsconsole/storage_summary.html [NE,R=301,L]
 RewriteRule ^permalink/helion-openstack/4.0/opsconsole_hdp_summary.*$ https://docs.hpcloud.com/hos-4.x/#helion/operations/opsconsole/hdp_summary.html [NE,R=301,L]
-RewriteRule ^permalink/helion-openstack/4.0/opsconsole_alarmresolution.*$ https://docs.hpcloud.com/hos-4.x/#helion/operations/alarm_resolutions.html [NE,R=301,L]   
+RewriteRule ^permalink/helion-openstack/4.0/opsconsole_alarmresolution.*$ https://docs.hpcloud.com/hos-4.x/#helion/operations/alarm_resolutions.html [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/4.0/opsconsole_compute_summary_inventory.*$ https://docs.hpcloud.com/hos-4.x/#helion/operations/opsconsole/en/cs_opsconsole_compute_storage_summary.html  [NE,R=301,L]
+RewriteRule ^permalink/helion-openstack/4.0/opsconsole_compute_summary_capacity.*$ https://docs.hpcloud.com/hos-4.x/#helion/operations/opsconsole/en/cs_opsconsole_compute_storage_summary.html  [NE,R=301,L]
 
 # #### ops console gui installer links HOS 4.0 translated to english CS 10.0.1
 RewriteRule ^permalink/helion-openstack/4.0/en/opsconsole_alarm_definitions.*$ https://docs.hpcloud.com/hos-4.x/#helion/operations/opsconsole/en/alarm_definitions.html [NE,R=301,L]
