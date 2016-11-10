@@ -8,8 +8,9 @@ RewriteEngine on
 
 RewriteRule ^permalink/stackato/4.0/home.*$ http://docs-staging.hpcloud.com/stackato.docs-beta/#stackato/hpe_helion_stackato.html  [NE,R=301,L]
 
-# Gabriel test
+# Gabriel test 
 RewriteRule ^#gab.riel.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/understanding_identity.html [NE,R=301,L]
+RewriteRule ^gab.riel.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/understanding_identity.html [NE,R=301,L]
 
 # cloudsystem rules
 RewriteRule ^/#3.x/helion/operations/understanding_identity.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/understanding_identity.html [NE,R=301,L]
