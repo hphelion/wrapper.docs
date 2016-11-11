@@ -14,6 +14,9 @@ RewriteRule ^gab.riel.*$ https://docs.hpcloud.com/hos-3.x/helion/operations/unde
 # 3.x rules
 RewriteRule ^3.x/helion/(.*)  https://docs.hpcloud.com/hos-3.x/helion/$1  [NE,R=301,L]
 
+RewriteRule ^CarrierGrade2.0/(.*) https://docs.hpcloud.com/cg-2.0/CarrierGrade2.0/$1  [NE,R=301,L]
+RewriteRule ^CarrierGrade2.1/(.*) https://docs.hpcloud.com/cg-2.1/CarrierGrade2.1/$1  [NE,R=301,L]
+
 
 #RewriteRule ^/3.x/helion/operations/understanding_identity.*$ https://docs.hpcloud.com/hos-3.x/helion/operations/understanding_identity.html [NE,R=301,L]
 #RewriteRule ^/3.x/helion/operations/change_service_passwords.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/change_service_passwords.html [NE,R=301,L]
