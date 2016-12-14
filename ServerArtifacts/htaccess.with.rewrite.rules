@@ -27,14 +27,14 @@ RewriteRule ^CarrierGrade2.1/(.*) https://docs.hpcloud.com/cg-2.1/CarrierGrade2.
 #RewriteRule ^3.x/helion/operations/configuring_tls.*$ https://docs.hpcloud.com/hos-3.x/#helion/operations/configuring_tls.html [NE,R=301,L]
 
 
-# euca ruiles
-RewriteRule ^permalink/eucalyptus/most-current/release-notes.*$ http://docs.eucalyptus.com/eucalyptus/4.3.0/#release-notes/4.3.0/4.3.0_index.html  [NE,R=301,L] 
-RewriteRule ^permalink/eucalyptus/most-current/installing_euca_release.*$ http://docs.eucalyptus.com/eucalyptus/4.3.0/#install-guide/installing_euca_release.html [NE,R=301,L]
-RewriteRule ^permalink/eucalyptus/most-current/install-guide.*$ http://docs.eucalyptus.com/eucalyptus/4.3.0/#install-guide/index.html  [NE,R=301,L] 
-RewriteRule ^permalink/eucalyptus/most-current/installing-euca2ools.*$ http://docs.eucalyptus.com/eucalyptus/4.3.0/#shared/installing_euca2ools.html  [NE,R=301,L] 
-RewriteRule ^permalink/eucalyptus/most-current/euca2ools-guide.*$ http://docs.eucalyptus.com/eucalyptus/4.3.0/#euca2ools-guide/index.html  [NE,R=301,L] 
-RewriteRule ^permalink/eucalyptus/most-current/euca2ools-release-notes.*$ http://docs.eucalyptus.com/eucalyptus/4.3.0/#euca2ools-release-notes/rn_index_3.3.1.html  [NE,R=301,L]
-RewriteRule ^eucalyptus/4.3.0/(.*) https://docs.eucalyptus.com/eucalyptus/4.3.0/$1
+# euca rules
+RewriteRule ^permalink/eucalyptus/most-current/release-notes.*$ http://docs.eucalyptus.com/eucalyptus/4.3/#release-notes/4.3.1/4.3.1_index.html  [NE,R=301,L] 
+RewriteRule ^permalink/eucalyptus/most-current/installing_euca_release.*$ http://docs.eucalyptus.com/eucalyptus/4.3/#install-guide/installing_euca_release.html [NE,R=301,L]
+RewriteRule ^permalink/eucalyptus/most-current/install-guide.*$ http://docs.eucalyptus.com/eucalyptus/4.3/#install-guide/index.html  [NE,R=301,L] 
+RewriteRule ^permalink/eucalyptus/most-current/installing-euca2ools.*$ http://docs.eucalyptus.com/eucalyptus/4.3/#shared/installing_euca2ools.html  [NE,R=301,L] 
+RewriteRule ^permalink/eucalyptus/most-current/euca2ools-guide.*$ http://docs.eucalyptus.com/eucalyptus/4.3/#euca2ools-guide/index.html  [NE,R=301,L] 
+RewriteRule ^permalink/eucalyptus/most-current/euca2ools-release-notes.*$ http://docs.eucalyptus.com/eucalyptus/4.3/#euca2ools-release-notes/rn_index_3.4.0.html  [NE,R=301,L]
+RewriteRule ^eucalyptus/4.3/(.*) https://docs.eucalyptus.com/eucalyptus/4.3.1/$1
 
 #
 RewriteRule ^permalink/helion-openstack/3.0/opsconsole_alarm_resolutions.*$ https://docs.hpcloud.com/hos-3.x/index.html#helion/operations/opsconsole/alarm_resolutions.html  [NE,R=301,L] 
@@ -957,4 +957,4 @@ RewriteRule ^als/v1/admin/best-practices/logging-examples/?$	/#devplatform/helio
 RewriteRule ^als/v1/admin/best-practices/?$	/#devplatform/helion/admin/best-practices/1.0index.html [NE,R=301,L]
 RewriteRule ^als/v1/admin/?$	/#devplatform/helion/admin/1.0index.html [NE,R=301,L]
 RewriteRule ^als/v1/?$	/#devplatform/helion/1.0index.html [NE,R=301,L]
-RewriteRule ^eucalyptus/?$  /eucalyptus/4.3.0/ [NE,R=301,L]
+RewriteRule ^eucalyptus/?$  /eucalyptus/4.3.1/ [NE,R=301,L]
