@@ -33,7 +33,7 @@
   <topicref navtitle="HPE Helion Ready Catalog" href="hrc/helionReady.dita" linking="normal"
     locktitle="yes"/>
 
-  <mapref href="./cg-4.0/" navtitle="HP Helion OpenStack® Carrier Grade 4.0" format="html"
+  <mapref href="./cg-4.x/" navtitle="HPE Helion OpenStack® Carrier Grade 4.0" format="html"
     scope="external"/>
   <mapref href="./cg-2.1/" navtitle="HPE Helion OpenStack® Carrier Grade 2.1" format="html"
     scope="external"/>
