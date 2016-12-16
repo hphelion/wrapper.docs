@@ -17,53 +17,66 @@
   </topicmeta>
   <!--permalink: -->
   <!--permalink: /-->
- 
- 
-  <topicref href="home.dita"/>
-  
-  <mapref href="./hos-4.x/" navtitle="HPE Helion OpenStack 4.x" format="html" scope="external"/> 
-  
-  <mapref href="./hos-3.x/" navtitle="HPE Helion OpenStack 3.x" format="html" scope="external"/>
-  
-  <mapref href="./hos-2.x/" navtitle="HPE Helion OpenStack 2.x" format="html" scope="external"/>
-  
-  <mapref href="stackato/index.html" navtitle="HPE Helion Stackato 4.0" format="html" scope="external"/>
-  
-  <topicref navtitle="HPE Helion Ready Catalog" href="hrc/helionReady.dita" linking="normal" locktitle="yes"/>
-  
 
-  
-  <mapref href="./cg-2.0/" navtitle="HP Helion OpenStack® Carrier Grade 2.0" format="html" scope="external"/>
-  
-  <mapref href="./cg-2.1/" navtitle="HPE Helion OpenStack® Carrier Grade 2.1" format="html" scope="external"/>
-  
-  
-      <topicref href="cloudsystem/cloudsystem.landingpage.dita" navtitle="HPE Helion CloudSystem 10.0" locktitle="yes"/>
-      <topicref href="cloudsystem/licensing.dita" navtitle="Open-Source and Third-Party Licensing" locktitle="yes" toc="no"/>
-      <topicref href="cloudsystem/thirdparty.licensing.dita" toc="no"/>
-      <topicref href="cloudsystem/licensing.dita" toc="no"/>
-      <topicref href="automation/csa.index.dita"/>
-      <topicref href="codar-landing-page.dita" navtitle="HPE Codar"/>
-      <topicref href="helion.rack.solution.dita" navtitle="HPE Helion Cloud Solutions"/>
-    
-    <topichead navtitle="Previous Versions">
-      
-      <mapref href="./devplat-20/" navtitle="HPE Helion Development Platform 2.0" format="html" scope="external"/>
-      
-      <mapref href="./devplat-1.3/" navtitle="HPE Helion Development Platform 1.3" format="html" scope="external"/>
-      
-      <mapref href="./devplat-1.2/" navtitle="HPE Helion Development Platform 1.2" format="html" scope="external"/>
-      
-      <mapref href="./devplat-1.1/" navtitle="HPE Helion Development Platform 1.1" format="html" scope="external"/>
-      
-      <mapref href="./hos-1.1x/" navtitle="HPE Helion OpenStack 1.1.1 and 1.1" format="html" scope="external"/>
-      
-      <mapref href="./devplat-1.0/" navtitle="HPE Helion Development Platform 1.0" format="html" scope="external"/>
-      
-      <mapref href="./hos-1.0/" navtitle="HPE Helion OpenStack 1.0" format="html" scope="external"/>
-      
-      <mapref href="./cg-1.1/" navtitle="HPE Helion OpenStack® Carrier Grade 1.1" format="html" scope="external"/>
-      
-    </topichead>
-     
+
+  <topicref href="home.dita"/>
+
+  <mapref href="./hos-4.x/" navtitle="HPE Helion OpenStack 4.x" format="html" scope="external"/>
+
+  <mapref href="./hos-3.x/" navtitle="HPE Helion OpenStack 3.x" format="html" scope="external"/>
+
+  <mapref href="./hos-2.x/" navtitle="HPE Helion OpenStack 2.x" format="html" scope="external"/>
+
+  <mapref href="stackato/index.html" navtitle="HPE Helion Stackato 4.0" format="html"
+    scope="external"/>
+
+  <topicref navtitle="HPE Helion Ready Catalog" href="hrc/helionReady.dita" linking="normal"
+    locktitle="yes"/>
+
+  <mapref href="./cg-4.0/" navtitle="HP Helion OpenStack® Carrier Grade 4.0" format="html"
+    scope="external"/>
+  <mapref href="./cg-2.1/" navtitle="HPE Helion OpenStack® Carrier Grade 2.1" format="html"
+    scope="external"/>
+  <mapref href="./cg-2.0/" navtitle="HP Helion OpenStack® Carrier Grade 2.0" format="html"
+    scope="external"/>
+
+
+
+  <topicref href="cloudsystem/cloudsystem.landingpage.dita" navtitle="HPE Helion CloudSystem 10.0"
+    locktitle="yes"/>
+  <topicref href="cloudsystem/licensing.dita" navtitle="Open-Source and Third-Party Licensing"
+    locktitle="yes" toc="no"/>
+  <topicref href="cloudsystem/thirdparty.licensing.dita" toc="no"/>
+  <topicref href="cloudsystem/licensing.dita" toc="no"/>
+  <topicref href="automation/csa.index.dita"/>
+  <topicref href="codar-landing-page.dita" navtitle="HPE Codar"/>
+  <topicref href="helion.rack.solution.dita" navtitle="HPE Helion Cloud Solutions"/>
+
+  <topichead navtitle="Previous Versions">
+
+    <mapref href="./devplat-20/" navtitle="HPE Helion Development Platform 2.0" format="html"
+      scope="external"/>
+
+    <mapref href="./devplat-1.3/" navtitle="HPE Helion Development Platform 1.3" format="html"
+      scope="external"/>
+
+    <mapref href="./devplat-1.2/" navtitle="HPE Helion Development Platform 1.2" format="html"
+      scope="external"/>
+
+    <mapref href="./devplat-1.1/" navtitle="HPE Helion Development Platform 1.1" format="html"
+      scope="external"/>
+
+    <mapref href="./hos-1.1x/" navtitle="HPE Helion OpenStack 1.1.1 and 1.1" format="html"
+      scope="external"/>
+
+    <mapref href="./devplat-1.0/" navtitle="HPE Helion Development Platform 1.0" format="html"
+      scope="external"/>
+
+    <mapref href="./hos-1.0/" navtitle="HPE Helion OpenStack 1.0" format="html" scope="external"/>
+
+    <mapref href="./cg-1.1/" navtitle="HPE Helion OpenStack® Carrier Grade 1.1" format="html"
+      scope="external"/>
+
+  </topichead>
+
 </map>
