@@ -26,8 +26,10 @@
   <topicref navtitle="HPE Helion Ready Catalog" href="hrc/helionReady.dita" linking="normal"
     locktitle="yes"/>
   <mapref href="stackato/docs.hpcloud.com.stackato.ditamap" format="ditamap"/>
-  <mapref href="docs.hpcloud.com.CGH.20.ditamap" format="ditamap"/>
+  <mapref href="docs.hpcloud.com.CGH.40.ditamap" format="ditamap"/>
   <mapref href="docs.hpcloud.com.CGH.21.ditamap" format="ditamap"/>
+  <mapref href="docs.hpcloud.com.CGH.20.ditamap" format="ditamap"/>
+  
 
   <topicref href="euca/euca-landing-page.dita" navtitle="HPE Helion Eucalyptus" locktitle="yes">
     <topicref href="euca/euca.thirdparty.licensing.dita"
