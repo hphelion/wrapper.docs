@@ -62,18 +62,8 @@
       </strow>
       <strow>
         <stentry>
-          <xref href="devplat-2.0" format="html" scope="external">HPE Helion Development
-            Platform</xref>
-        </stentry>
-        <stentry>Based on <tm tmtype="tm">Cloud Foundry</tm>, this add-on for HPE Helion OpenStack
-          empowers developers and IT professionals by providing an open development platform
-          designed for agility. </stentry>
-        <stentry/>
-      </strow>
-      <strow>
-        <stentry>
-          <xref href="./cg-4.x/" format="html" scope="external"><tm tmtype="reg">OpenStack</tm>
-            Carrier Grade</xref>
+          <xref href="./cg-4.x/" format="html" scope="external">HPE Helion <tm tmtype="reg"
+              >OpenStack</tm> Carrier Grade 4.0</xref>
         </stentry>
         <stentry>A carrier-grade OpenStack solution plus compute and network functions
           virtualization (NFV) offering that enables CSPs to deploy applications on open source
