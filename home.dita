@@ -20,16 +20,20 @@
     <simpletable id="homepageTable" relcolwidth="1.0* 5.06* 1.0*">
       <strow>
         <stentry>
-          <xref href="./hos-4.x/"   format="html" scope="external">HPE Helion <tm tmtype="reg">OpenStack</tm> 4.0</xref>
+          <xref href="./hos-4.x/" format="html" scope="external">HPE Helion <tm tmtype="reg"
+              >OpenStack</tm> 4.0</xref>
         </stentry>
         <stentry>A commercial-grade software solution that enables customers to deploy private,
           managed, hybrid, and public cloud services based on OpenStack HPE Helion OpenStack reduces
           complexity of cloud deployments.</stentry>
-        <stentry/>
+        <stentry><xref
+            href="http://docs.hpcloud.com/pdf/HPE_Helion_OpenStack_4.0_Complete_Documentation.pdf"
+            format="pdf" scope="external">PDF Download</xref></stentry>
       </strow>
       <strow>
         <stentry>
-          <xref href="./hos-3.x/" format="html" scope="external" >HPE Helion <tm tmtype="reg">OpenStack</tm> 3.0</xref>
+          <xref href="./hos-3.x/" format="html" scope="external">HPE Helion <tm tmtype="reg"
+              >OpenStack</tm> 3.0</xref>
         </stentry>
         <stentry>A commercial-grade software solution that enables customers to deploy private,
           managed, hybrid, and public cloud services based on OpenStack HPE Helion OpenStack reduces
@@ -39,8 +43,8 @@
             format="pdf" scope="external">PDF Download</xref></stentry>
       </strow>
       <strow>
-        <stentry><xref href="./hos-2.x/" format="html" scope="external">HPE Helion <tm tmtype="reg">OpenStack</tm> 2.1,
-            2.0</xref></stentry>
+        <stentry><xref href="./hos-2.x/" format="html" scope="external">HPE Helion <tm tmtype="reg"
+              >OpenStack</tm> 2.1, 2.0</xref></stentry>
         <stentry>A commercial-grade software solution that enables customers to deploy private,
           managed, hybrid, and public cloud services based on OpenStack HPE Helion OpenStack reduces
           complexity of cloud deployments, and is the underlying platform for the Helion Development
@@ -50,14 +54,16 @@
             format="pdf" scope="external">PDF Download</xref></stentry>
       </strow>
       <strow>
-        <stentry><xref href="./stackato/" format="html" scope="external">HPE Helion Stackato 4.0</xref></stentry>
+        <stentry><xref href="./stackato/" format="html" scope="external">HPE Helion Stackato
+            4.0</xref></stentry>
         <stentry>A cloud native platform that provides enterprises the right services, tools and
           control to enable enterprise developers to accelerate their innovations. </stentry>
         <stentry/>
       </strow>
       <strow>
         <stentry>
-          <xref href="devplat-2.0"  format="html" scope="external">HPE Helion Development Platform</xref>
+          <xref href="devplat-2.0" format="html" scope="external">HPE Helion Development
+            Platform</xref>
         </stentry>
         <stentry>Based on <tm tmtype="tm">Cloud Foundry</tm>, this add-on for HPE Helion OpenStack
           empowers developers and IT professionals by providing an open development platform
@@ -66,12 +72,15 @@
       </strow>
       <strow>
         <stentry>
-          <xref href="./cg-2.1/"  format="html" scope="external" ><tm tmtype="reg">OpenStack</tm> Carrier Grade</xref>
+          <xref href="./cg-4.x/" format="html" scope="external"><tm tmtype="reg">OpenStack</tm>
+            Carrier Grade</xref>
         </stentry>
         <stentry>A carrier-grade OpenStack solution plus compute and network functions
           virtualization (NFV) offering that enables CSPs to deploy applications on open source
           software platforms. </stentry>
-        <stentry/>
+        <stentry><xref
+            href="https://docs.hpcloud.com/pdf/HPE_Helion_OpenStack_Carrier_Grade_4.0_Documentation.pdf"
+            format="pdf" scope="external">PDF Download</xref></stentry>
       </strow>
       <strow>
         <stentry>
