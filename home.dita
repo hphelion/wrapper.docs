@@ -111,6 +111,7 @@
           hybrid service delivery. </stentry>
         <stentry/>
       </strow>
+      <!--
       <strow>
         <stentry>
           <xref href="helion.rack.solution.dita">HPE Helion Cloud Solutions </xref>
@@ -122,6 +123,7 @@
           case. </stentry>
         <stentry/>
       </strow>
+      -->
     </simpletable>
   </body>
 </topic>
