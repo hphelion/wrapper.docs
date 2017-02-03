@@ -86,6 +86,7 @@
         <stentry>Expands on CloudSystem Foundation to integrate servers, storage, networking,
           security, and management to automate the lifecycle for hybrid service delivery. </stentry>
       </strow>
+      <!--
       <strow>
         <stentry>
           <xref href="helion.rack.solution.dita">HPE Helion Cloud Solutions </xref>
@@ -96,6 +97,7 @@
           Depot and HPE Helion Rack include everything you need to be successful when facing a
           demanding cloud use case. </stentry>
       </strow>
+      -->
     </simpletable>
 </body>
 </topic>
