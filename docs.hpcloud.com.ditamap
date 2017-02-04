@@ -56,7 +56,9 @@
 
   <topicref href="automation/csa.index.dita"/>
   <topicref href="codar-landing-page.dita" navtitle="HPE Codar"/>
+  <!-- Removing Helion Cloud Solution 
   <topicref href="helion.rack.solution.dita" navtitle="HPE Helion Cloud Solutions" locktitle="yes"/>
+  -->
   <topichead navtitle="Previous Versions">
     <mapref href="devplatform/docs.hpcloud.com.HDP.ditamap" format="ditamap"/>
     <mapref href="devplatform/docs.hpcloud.com.HDP13.ditamap" format="ditamap"
