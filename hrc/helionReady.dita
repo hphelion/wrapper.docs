@@ -45,46 +45,46 @@
           <row>
             <entry>Server</entry>
             <entry>HPE ProLiant BL460c Gen9 Server Blade</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry>*supported with P-series and H-series smart arrays no support for B-series smart
               array (SATA only) is available at this time</entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Server</entry>
             <entry>HPE ProLiant BL460c Gen8 Server Blade</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry>*supported with P-series and H-series smart arrays no support for B-series smart
               array (SATA only) is available at this time</entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Server</entry>
             <entry>HPE ProLiant ProLiant BL660c Gen8 Server Blade</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry>*supported with P-series and H-series smart arrays no support for B-series smart
               array (SATA only) is available at this time</entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Server</entry>
             <entry>HPE ProLiant ProLiant DL560 Gen9 Server</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Server</entry>
             <entry>HPE ProLiant ProLiant DL580 Gen9 Server</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Server</entry>
             <entry>HPE ProLiant ProLiant DL360 Gen9 Server</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Adapter</entry>
             <entry>HPE Ethernet 10Gb 2-port 546FLR-SFP</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
@@ -102,32 +102,32 @@
           <row>
             <entry>Server</entry>
             <entry>HPE ProLiant BL420c Gen8 (supported with P-series Smart Array only)</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry>*supported with P-series and H-series smart arrays no support for B-series smart
               array (SATA only) is available at this time </entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Server</entry>
             <entry>HPE ProLiant DL380 Gen9</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Server</entry>
             <entry>HPE ProLiant DL320 Gen8</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Server</entry>
             <entry>HPE ProLiant DL360 Gen8</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Server</entry>
             <entry>HPE ProLiant DL380 Gen8</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
@@ -145,91 +145,98 @@
           <row>
             <entry>Server</entry>
             <entry>HPE ProLiant m300 Server Cartridges</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry>(supported for compute node only)</entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Server</entry>
             <entry>HPE ProLiant m710 Server Cartridges</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry>(support for compute node only)</entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Server</entry>
             <entry>HPE ProLiant SL230s Gen8</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
+              <row>
+                <entry>Server</entry>
+                <entry>HPE ProLiant SL210t Gen8</entry>
+                <entry>4.x</entry>
+                <entry/>
+                <entry/>
+              </row>
           <row>
             <entry>Server</entry>
             <entry>HPE ProLiant SL250s Gen8</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Server</entry>
             <entry>HPE ProLiant SL270s Gen8</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Server</entry>
             <entry>HPE ProLiant SL2500 Gen8</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Server</entry>
             <entry>HPE ProLiant SL4540 Gen8</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Server</entry>
             <entry>HPE ProLiant XL170r Gen9</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Server</entry>
             <entry>HPE ProLiant XL190r Gen9</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Server</entry>
             <entry>HPE Apollo 2000 Gen9</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Server</entry>
             <entry>HPE ProLiant XL450 Gen9</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Server</entry>
             <entry>HPE Apollo 4500 Gen9</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Server</entry>
             <entry>HPE ProLiant XL230a Gen9</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Server</entry>
             <entry>HPE ProLiant XL250a Gen9</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Server</entry>
             <entry>HPE Apollo 6000</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
@@ -271,37 +278,51 @@
           <row>
             <entry>Adapter</entry>
             <entry>HPE Ethernet 10Gb 2-port 530FLR-SFP+ Adapter</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Adapter</entry>
             <entry>HPE FlexFabric 10Gb 2-port 533FLR-T Adapter</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Adapter</entry>
             <entry>HPE FlexFabric 10Gb 2-port 534FLR-SFP+ Adapter</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
+              <row>
+                <entry>Adapter</entry>
+                <entry>HPE FlexFabric 40Gb 2-port 544FLR-QSFP</entry>
+                <entry>4.x</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>Adapter</entry>
+                <entry>HPE FlexFabric 40Gb 2-port 544+FLR-QSFP</entry>
+                <entry>4.x</entry>
+                <entry/>
+                <entry/>
+              </row>
           <row>
             <entry>Adapter</entry>
             <entry>HPE FlexFabric 10Gb 2-port 554FLR-SFP+ Adapter</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Adapter</entry>
             <entry>HPE FlexFabric 10Gb 2-port 556FLR-SFP+ FIO Adapter</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Adapter</entry>
             <entry>HPE Ethernet 10Gb 2-port 560FLR-SFP+ Adapter</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
@@ -319,13 +340,13 @@
           <row>
             <entry>Adapter</entry>
             <entry>HPE Ethernet 10Gb/40Gb 2-port 544+QSFP Adapter</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Adapter</entry>
             <entry>HPE Ethernet 10Gb 2-port 546SFP+ Adapter</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
@@ -337,19 +358,19 @@
           <row>
             <entry>Adapter</entry>
             <entry>HPE Ethernet 10Gb 2-port 530T Adapter</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Adapter</entry>
             <entry>HPE NC552SFP 10Gb 2-port Ethernet Server Adapter</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Adapter</entry>
             <entry>HPE Ethernet 10Gb 2-port 560SFP+ Adapter</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
@@ -391,49 +412,49 @@
           <row>
             <entry>Adapter</entry>
             <entry>HPE Smart Array P222/512 FBWC 6Gb 1-port Int/1-port Ext SAS Controller</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Adapter</entry>
             <entry>HPE Smart Array P420/2GB FBWC 6Gb 2-ports Int SAS Controller</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Adapter</entry>
             <entry>HPE Smart Array P421/2GB FBWC 6Gb 2-ports Ext SAS Controller</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Adapter</entry>
             <entry>HPE Smart Array P430/4GB FBWC 6Gb 1-port Int SAS Controller</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Adapter</entry>
             <entry>HPE Smart Array P431/4GB FBWC 6Gb 2-ports Ext SAS Controller</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Adapter</entry>
             <entry>HPE Smart Array P440/4GB FBWC 12Gb 1-port Int SAS Controller</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Adapter</entry>
             <entry>HPE Smart Array P440ar/2GB FBWC 12Gb 2-ports Int SAS Controller</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Adapter</entry>
             <entry>HPE Smart Array P441/4GB FBWC 12Gb 2-ports Ext SAS Controller</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
@@ -451,19 +472,19 @@
           <row>
             <entry>Adapter</entry>
             <entry>HPE Smart Array P840/4GB FBWC 12Gb 2-ports Int SAS Controller</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Adapter</entry>
             <entry>HPE Smart Array P841/4GB FBWC 12Gb 4-ports Ext SAS Controller</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Adapter</entry>
             <entry>HPE H240 12Gb 2-port Int Smart Host Bus Adapter</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
@@ -493,49 +514,49 @@
           <row>
             <entry>Adapter</entry>
             <entry>HPE 81E PCIe FC HBA Single Port</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Adapter</entry>
             <entry>HPE 82E PCIe FC HBA Dual Port</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Adapter</entry>
             <entry>HPE SN1100E 16Gb Single-Port Fibre Channel Host Bus Adapter</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Adapter</entry>
             <entry>HPE SN1100E 16Gb Dual-Port Fibre Channel Host Bus Adapter</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Adapter</entry>
             <entry>HPE 81Q PCIe FC HBA Single Port</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Adapter</entry>
             <entry>HPE 82Q PCIe FC HBA Dual Port</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Adapter</entry>
             <entry>HPE StoreFabric SN1000Q 16GB 1-port PCIe Fibre Channel Host Bus Adapter</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Adapter</entry>
             <entry>HPE StoreFabric SN1000Q 16GB 2-port PCIe Fibre Channel Host Bus Adapter</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
@@ -553,25 +574,25 @@
           <row>
             <entry>Adapter</entry>
             <entry>HPE Flex-10 10Gb 2-port 530FLB Adapter</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Adapter</entry>
             <entry>HPE Flex Fabric 10Gb 2-port 534FLB Adapter</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Adapter</entry>
             <entry>HPE FlexFabric 10Gb 2-port 554FLB Adapter</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Adapter</entry>
             <entry>HPE Ethernet 10Gb 2-port 560FLB Adapter</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry>*not supported with HPE Virtual Connect
               
             </entry>
@@ -579,7 +600,7 @@
           <row>
             <entry>Adapter</entry>
             <entry>HPE FlexFabric 20Gb 2-port 650FLB Adapter</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
@@ -591,37 +612,51 @@
           <row>
             <entry>Adapter</entry>
             <entry>HPE Flex-10 10Gb 2-port 530M Adapter</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Adapter</entry>
             <entry>HPE FlexFabric 10Gb 2-port 534M Adapter</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
+              <row>
+                <entry>Adapter</entry>
+                <entry>HPE FlexFabric 40Gb 2-port 544M Adapter</entry>
+                <entry>4.x</entry>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>Adapter</entry>
+                <entry>HPE FlexFabric 40Gb 2-port 544+m Adapter</entry>
+                <entry>4.x</entry>
+                <entry/>
+                <entry/>
+              </row>
           <row>
             <entry>Adapter</entry>
             <entry>HPE Flex-10 10Gb 2-port 552M Adapter</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Adapter</entry>
             <entry>HPE FlexFabric 10Gb 2-port 554M Adapter</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Adapter</entry>
             <entry>HPE Ethernet 10Gb 2-port 560M Adapter</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Adapter</entry>
             <entry>HPE FlexFabric 20Gb 2-port 650M Adapter</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
@@ -651,49 +686,49 @@
           <row>
             <entry>Adapter</entry>
             <entry>HPE LPe1205A 8Gb Fibre Channel Host Bus Adapter for BladeSystem c-Class</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Adapter</entry>
             <entry>HPE LPe1605 16Gb Fibre Channel HBA for BladeSystem c-Class</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Adapter</entry>
             <entry>HPE QMH2572 8Gb Fibre Channel Host Bus Adapter for BladeSystem c-Class</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Adapter</entry>
             <entry>HPE QMH2672 16Gb Fibre Channel Host Bus Adapter</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Server</entry>
             <entry>HPE ProLiant DL120 Gen9</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry>*requires ILO add-on</entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Server</entry>
             <entry>HPE ProLiant DL160 Gen9</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry>* requires ILO add-on</entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Server</entry>
             <entry>HPE ProLiant DL180 Gen9</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry>* requires ILO add-on</entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Server</entry>
             <entry>HPE ProLiant DL160 Gen8</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
@@ -887,7 +922,7 @@
           <row>
             <entry>Networking</entry>
             <entry>HPE FlexFabric 5700 Switch Series</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
@@ -915,19 +950,19 @@
           <row>
             <entry>Adapter</entry>
             <entry>HPE FlexFabric 10Gb 2-port 536FLB Adapter</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Adapter</entry>
             <entry>HPE FlexFabric 20Gb 2-port 630FLB Adapter</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
             <entry>Adapter</entry>
             <entry>HPE FlexFabric 20Gb 2-port 630M Adapter</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
@@ -951,7 +986,7 @@
           <row>
             <entry>Adapter</entry>
             <entry>HPE Ethernet 10Gb 2-port 561T Adapter</entry>
-            <entry>2.x/3.x</entry>
+            <entry>2.x/3.x/4.x</entry>
             <entry></entry>
            <entry>Certified</entry></row>
           <row>
@@ -1127,14 +1162,14 @@
               <row>
                 <entry>Adapter</entry>
                 <entry>HPE Ethernet 10Gb 2-port 557SFP+ Adapter</entry>
-                <entry>2.x/3.x</entry>
+                <entry>2.x/3.x/4.x</entry>
                 <entry/>
                 <entry>Certified</entry>
               </row>
               <row>
                 <entry>Adapter</entry>
                 <entry>HPE Smart Array P220i Controller</entry>
-                <entry>2.x/3.x</entry>
+                <entry>2.x/3.x/4.x</entry>
                 <entry/>
                 <entry>Certified</entry>
               </row>
@@ -1148,7 +1183,7 @@
               <row>
                 <entry>Adapter</entry>
                 <entry>HPE Smart Array P741m Controller</entry>
-                <entry>2.x/3.x</entry>
+                <entry>2.x/3.x/4.x</entry>
                 <entry/>
                 <entry>Certified</entry>
               </row>
