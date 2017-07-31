@@ -19,6 +19,15 @@
       resources and references for you.</p>
     <simpletable id="homepageTable" relcolwidth="1.0* 5.06* 1.0*">
       <strow>
+        <stentry><xref href="hos-5.x/helion/index.dita">HPE Helion <tm tmtype="reg">OpenStack</tm>
+            5.0</xref>
+        </stentry>
+        <stentry>A commercial-grade software solution that enables customers to deploy private,
+          managed, hybrid, and public cloud services based on OpenStack HPE Helion OpenStack reduces
+          complexity of cloud deployments.</stentry>
+        <stentry/>
+      </strow>
+      <strow>
         <stentry>
           <xref href="hos-4.x/helion/index.dita">HPE Helion <tm tmtype="reg">OpenStack</tm> 4.0</xref>
         </stentry>
