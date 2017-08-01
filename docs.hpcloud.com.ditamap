@@ -18,6 +18,9 @@
   <!--permalink: -->
   <!--permalink: /-->
   <topicref href="home.dita"/>
+  <!-- Adding HOS 5.0 - cthompson - July 31, 2017 -->
+  <mapref href="5.x/docs.hpcloud.com.HOS.ditamap" navtitle="HPE Helion OpenStack 5.x"
+    format="ditamap"/>
   <mapref href="4.x/docs.hpcloud.com.HOS.ditamap" navtitle="HPE Helion OpenStack 4.x"
     format="ditamap"/>
   <mapref href="3.x/docs.hpcloud.com.HOS.ditamap" navtitle="HPE Helion OpenStack 3.x"
