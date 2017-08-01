@@ -21,6 +21,8 @@
 
   <topicref href="home.dita"/>
 
+  <mapref href="./hos-5.x/" navtitle="HPE Helion OpenStack 5.x" format="html" scope="external"/>
+
   <mapref href="./hos-4.x/" navtitle="HPE Helion OpenStack 4.x" format="html" scope="external"/>
 
   <mapref href="./hos-3.x/" navtitle="HPE Helion OpenStack 3.x" format="html" scope="external"/>
