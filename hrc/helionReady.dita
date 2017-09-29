@@ -257,6 +257,13 @@
             <entry>2.x</entry>
             <entry></entry>
            <entry>Verified</entry></row>
+              <row>
+                <entry>Server</entry>
+                <entry>Synergy 480</entry>
+                <entry>4.x</entry>
+                <entry/>
+                <entry>Verified</entry>
+              </row>
           <row>
             <entry>Adapter</entry>
             <entry>Cisco UCS VIC 1225 10Gbps 2 port CNA SFP+</entry>
